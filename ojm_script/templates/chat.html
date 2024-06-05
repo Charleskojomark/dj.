@@ -1,0 +1,237 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+    <style>
+        :root {
+            --main-color-one: rgb(243, 182, 18);
+            --main-color-two: rgb(22, 31, 59);
+        }
+        ::-webkit-scrollbar {
+            width: 10px; 
+            height: 10px; 
+        }
+        
+        ::-webkit-scrollbar-track {
+            background: #fff; 
+            border-radius: 10px; 
+        }
+        ::-webkit-scrollbar-thumb {
+            background: var(--main-color-two); 
+            border-radius: 10px; 
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: var(--main-color-one); 
+        }
+        
+        
+        ::-webkit-scrollbar-corner {
+            background: #f1f1f1; 
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: var(--main-color-two);
+            color: white;
+            height: 100vh;
+            overflow: hidden;
+        }
+        
+        h1 {
+            margin-top: 20px;
+            color: var(--main-color-one);
+        }
+        
+        #chat-box {
+            width: 100%;
+            height: calc(100vh - 140px); /* Full height minus header and input area */
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 10px;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .message {
+            margin-bottom: 10px;
+            padding: 5px 10px;
+            border-radius: 12px;
+            max-width: 80%;
+            display: inline-block;
+            position: relative;
+            word-wrap: break-word;
+            font-weight: 600;
+        }
+        
+        .message.you {
+            background-color: var(--main-color-one);
+            align-self: flex-end;
+            text-align: right;
+            color: black;
+        }
+        
+        .message.other {
+            background-color: #f1f0f0;
+            align-self: flex-start;
+            text-align: left;
+            color: black;
+        }
+        
+        .message small {
+            display: block;
+            font-size: 0.7em;
+            color: var(--main-color-two);
+        }
+        
+        .chat-input {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            background-color: white;
+            border-top: 1px solid #ccc;
+            box-sizing: border-box;
+            position: relative;
+        }
+        
+        #message-input {
+            width: 90%; /* Adjusted width to accommodate send button */
+            padding: 10px;
+            margin: auto;
+            
+            border: 1px solid #ccc;
+            border-radius: 20px;
+            resize: none;
+        }
+        
+        #send-button {
+            position: absolute;
+            right: 6%;
+            bottom: 50%;
+            transform: translateY(50%);
+            padding: 10px 20px;
+            border: none;
+            border-radius: 20px;
+            background-color: var(--main-color-one);
+            color: black;
+            cursor: pointer;
+        }
+        
+        #send-button:hover {
+            background-color: #c9a315;
+        }
+        
+        @media (max-width: 600px) {
+            .chat-input {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+        }
+        
+
+    </style>
+    <script src="https://js.pusher.com/8.2.0/pusher.min.js"></script>
+</head>
+<body>
+    <h1>Chat with {{ other_user.username }}</h1>
+    <div id="chat-box">
+        {% for message in messages %}
+            {% if message.sender == request.user %}
+                <div class="message you">
+                    <strong>You:</strong> {{ message.content }} <br>
+                    <small>{{ message.timestamp|timesince }} ago</small>
+                </div>
+            {% else %}
+                <div class="message other">
+                    <strong>{{ other_user.username }}:</strong> {{ message.content }} <br>
+                    <small>{{ message.timestamp|timesince }} ago</small>
+                </div>
+            {% endif %}
+        {% endfor %}
+    </div>
+    <div class="chat-input">
+        <textarea id="message-input" placeholder="Type your message"></textarea>
+        <button id="send-button">Send</button>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            var pusher = new Pusher('10336bd809bc9424aff5', {
+                cluster: 'eu'
+            });
+
+            var channel = pusher.subscribe('new-channel');
+            channel.bind('new-message', function(data) {
+                if (data.conversation_id == '{{ conversation.conversation_id }}') {
+                    var chatBox = document.getElementById('chat-box');
+                    var newMessage = document.createElement('div');
+                    newMessage.className = 'message ' + (data.sender === '{{ request.user.username }}' ? 'you' : 'other');
+                    newMessage.innerHTML = `
+                        <strong>${data.sender === '{{ request.user.username }}' ? 'You' : '{{ other_user.username }}'}:</strong> 
+                        ${data.content} <br>
+                        <small>${timeSince(new Date(data.timestamp))}</small>
+                    `;
+                    chatBox.appendChild(newMessage);
+                    chatBox.scrollTop = chatBox.scrollHeight;
+                }
+            });
+
+            document.getElementById('send-button').addEventListener('click', () => {
+                var messageInput = document.getElementById('message-input');
+                var message = messageInput.value.trim();
+                if (message) {
+                    messageInput.value = '';
+
+                    fetch("{% url 'chatapp:send' %}", {
+                        method: "POST",
+                        headers: {
+                            'Content-Type': 'application/json',
+                            'X-CSRFToken': '{{ csrf_token }}'
+                        },
+                        body: JSON.stringify({
+                            content: message,
+                            conversation_id: '{{ conversation.conversation_id }}'
+                        })
+                    })
+                    .then(response => response.json())
+                    .then(data => {
+                        if (data.status !== 'success') {
+                            console.error('Error sending message:', data.message);
+                        }
+                    })
+                    .catch(error => console.error('Error:', error));
+                }
+            });
+        });
+
+        function timeSince(date) {
+            const seconds = Math.floor((new Date() - date) / 1000);
+            const intervals = [
+                { label: 'year', seconds: 31536000 },
+                { label: 'month', seconds: 2592000 },
+                { label: 'day', seconds: 86400 },
+                { label: 'hour', seconds: 3600 },
+                { label: 'minute', seconds: 60 }
+            ];
+            for (const interval of intervals) {
+                const time = Math.floor(seconds / interval.seconds);
+                if (time > 1) {
+                    return time + ' ' + interval.label + 's ago';
+                } else if (time === 1) {
+                    return time + ' ' + interval.label + ' ago';
+                }
+            }
+            return 'just now';
+        }
+    </script>
+</body>
+</html>

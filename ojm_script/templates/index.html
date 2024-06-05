@@ -1,0 +1,721 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <!-- css links -->
+  <link rel="stylesheet" href="{% static 'Css/style.css' %}">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link rel="shortcut icon" href="Assest/Img/ojm log.png" type="image/x-icon" />
+  <!-- icon link -->
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ojm Technology</title>
+</head>
+
+<body>
+      
+      {% if messages %}
+      {% for m in messages %}
+      {% if forloop.last %}   
+  <div class="error-container" id="error-container">
+    <div class="errors" id="errors">
+      <span>{{m}}</span>
+      <button class="close-button" onclick="removeDiv('error-container')">✖</button>
+    </div>
+  </div>
+  {% endif %}
+  {% endfor %}
+  {% endif %}
+  
+  <section class="ojm_background">
+    <header class="header" id="header">
+      <nav class="nav contanier">
+
+        <a href="index.html" class="nav_logo"><img src="{% static 'Assest/Img/ojm.png' %}" alt="" /></a>
+
+        <div class="nav_menu" id="nav-menu">
+          <ul class="nav_list">
+            <li class="nav_item">
+              <a href="index.html" class="nav_link active_link" style="color: rgb(243, 182, 18);">
+                <i class="uil uil-estate nav_icon"></i> Home
+              </a>
+            </li>
+
+            <li class="nav_item">
+              <a href="" class="nav_link">
+                <i class="uil uil-briefcase-alt nav_icon"></i> Services
+              </a>
+            </li>
+
+            
+            <li class="nav_item">
+            {%if request.user.is_authenticated%}
+
+              <a href="{% url 'ojm_core:dashboard' %}" class="nav_link">
+            <i class="uil uil-setting nav_icon"></i>Settings
+              </a>
+            {%else%}
+            <a href="{% url 'userauth:sign' %}" class="nav_link">
+              <i class="uil uil-user-plus nav_icon"></i> <span class="flex"><span>Join</span><span>Us</span></span>
+                </a>
+            </li>
+            {% endif %}
+
+
+            <li class="nav_item">
+              <a href="https://bit.ly/contact_ojm" class="nav_link">
+                <i class="uil uil-whatsapp nav_icon"></i> <span class="flex"><span>Contact</span><span>Us</span></span>
+              </a>
+            </li>
+            <!--             
+              <li class="nav_item">
+                <a href="" class="nav_link">
+                  <i class="uil uil-user nav_icon"></i> Account
+                </a>
+              </li> -->
+          </ul>
+          <!-- <i class="uil uil-times nav_close" id="nav-close"></i> -->
+        </div>
+
+        <div class="nav_btns">
+          <div class="dot-container">
+            <i class="uil uil-bell"></i>
+            <div class="dot">1</div>
+          </div>
+
+          <div class="icon-container">
+            <i class="uil uil-user" style="font-size: 25px; cursor: pointer;"></i>
+            <div class="links-card">
+              {%if request.user.is_authenticated%}
+              <a href="{% url 'ojm_core:dashboard' %}">Account</a>
+              {%else%}
+              <a href="{% url 'userauth:sign' %}">Sign Up</a>
+              {%endif%}
+              {%if request.user.is_authenticated%}
+              <a href="{% url 'userauth:logout' %}">Logout</a>
+              {% else %}
+              <a href="{% url 'userauth:login' %}">Login</a>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- selling proporsition -->
+    <div class="selling_section">
+      <h1 id="changing-text">Get Electricians In Minutes</h1>
+    </div>
+
+    <!-- search section -->
+    <div class="search_container">
+      <input type="text" placeholder="What service do you need?">
+      <button type="submit"><i class="uil uil-search"></i></button>
+    </div>
+
+    <!-- category section -->
+    <section class="category_section">
+      <div class="category_header">
+        <h2>All Categories</h2>
+        <a href="" class="cart_link">View All</a>
+      </div>
+      <div class="categories">
+        <div class="carts">
+          <a href=""><img src="{% static 'Assest/Img/wiring2.png' %}" alt="" width="60">
+            <p>Electrical Wiring</p>
+          </a>
+        </div>
+
+
+
+        <div class="carts">
+          <a href=""><img src="{% static 'Assest/Img/repairs1.png' %}" width="50" height="60" alt="">
+          </a>
+          <p>Electrical Repairs</p>
+        </div>
+
+        <div class="carts">
+          <a href=""><img src="{% static 'Assest/Img/installation6.png' %}" alt="" width="60" height="60">
+            <p>Electrical Installations</p>
+          </a>
+        </div>
+
+        <div class="carts">
+          <a href=""><img src="{% static 'Assest/Img/maintenance3.png' %}" alt="" width="60" height="60">
+            <p>Electrical Maintenance</p>
+          </a>
+        </div>
+
+        <div class="carts">
+          <a href=""><img src="{% static 'Assest/Img/faults1.png' %}" alt="" width="60" height="60">
+            <p>Electrical Fault Fixing</p>
+          </a>
+        </div>
+
+        <div class="carts">
+          <a href=""> <img src="{% static 'Assest/Img/consultation1.png' %}" alt="" width="70" height="60">
+            <p>Electrical Consultation</p>
+          </a>
+        </div>
+
+        <!-- <div class="cart_one">
+                <a href=""><img src="{% static 'Assest/Img/ico1.png' %}" alt="">Shifting</a>
+            </div>
+        </div> -->
+    </section>
+  </section>
+  <!-- <section class="ads_display"> -->
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide ad">
+        <img src="{% static 'Assest/Img/advert2.jpg' %}" alt="">
+      </div>
+
+      <div class="swiper-slide ad">
+        <img src="{% static 'Assest/Img/solar1.jpeg' %}" alt="">
+      </div>
+
+      <div class="swiper-slide ad">
+        <img src="{% static 'Assest/Img/cctv1.jpeg' %}" alt="">
+      </div>
+
+      <div class="swiper-slide ad">
+        <img src="{% static 'Assest/Img/flame5.jpeg' %}" alt="">
+      </div>
+
+      <div class="swiper-slide ad">
+        <img src="{% static 'Assest/Img/hdmi1.jpeg' %}" alt="">
+      </div>
+
+      <div class="swiper-slide ad">
+        <img src="{% static 'Assest/Img/switch1.jpeg' %}" alt="">
+      </div>
+    </div>
+    <!-- <div class="swiper-pagination"></div> -->
+  </div>
+  <!-- </section> -->
+
+  <section class="services_section swiper">
+    <div class="service-heading">
+      <h2>Recommended Services </h2>
+      <a href="">View All</a>
+    </div>
+    <div class="swiper-wrapper wrapers">
+
+
+      <!-- service one -->
+      <div class="swiper-slide">
+        <div class="service_data">
+
+          <div class="service-header">
+            <img src="{% static 'Assest/Img/cctv2.jpeg' %}" alt="">
+            <div class="discount">10% off</div>
+
+            <div class="header_text">
+              <h3>CCTV Camera Installation</h3>
+              <div>
+                <i class="uil uil-star service_icon-star"></i>
+                <i class="uil uil-star service_icon-star"></i>
+                <i class="uil uil-star service_icon-star"></i>
+                <i class="uil uil-star service_icon-star"></i>
+                <i class="uil uil-star service_icon-star"></i>
+              </div>
+              <span>Expert CCTV installation with professional setup and reliable support for your home security
+                needs.</span>
+            </div>
+          </div>
+
+          <div class="startoff_price">
+            <h4>Starts from</h4>
+            <p>
+              <s>₦300000</s>
+              <strong>₦270000</strong>
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- service two -->
+      <div class="swiper-slide">
+        <div class="service_data">
+          <div class="service-header">
+            <img src="{% static 'Assest/Img/solar2.jpeg' %}" alt="">
+            <div class="discount">10% off</div>
+
+            <div class="header_text">
+              <h3>Solar Installation</h3>
+              <div>
+                <i class="uil uil-star service_icon-star"></i>
+                <i class="uil uil-star service_icon-star"></i>
+                <i class="uil uil-star service_icon-star"></i>
+                <i class="uil uil-star service_icon-star"></i>
+                <i class="uil uil-star service_icon-star"></i>
+              </div>
+              <p>Professional solar panel installation ensuring efficient energy solutions and sustainable savings for
+                your home.</p>
+            </div>
+          </div>
+
+          <div class="startoff_price">
+            <h4>Starts from</h4>
+            <p>
+              <s>₦300000</s>
+              <strong>₦270000</strong>
+            </p>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- service three -->
+      <div class="swiper-slide">
+        <div class="service_data">
+          <div class="service-header">
+            <img src="{% static 'Assest/Img/ac2.jpeg' %}" alt="">
+            <div class="discount">10% off</div>
+
+            <div class="header_text">
+              <h3>AC Installation</h3>
+              <div>
+                <i class="uil uil-star service_icon-star"></i>
+                <i class="uil uil-star service_icon-star"></i>
+                <i class="uil uil-star service_icon-star"></i>
+                <i class="uil uil-star service_icon-star"></i>
+                <i class="uil uil-star service_icon-star"></i>
+              </div>
+              <p>Expert AC installation to ensure optimal cooling comfort and energy efficiency in your home.</p>
+            </div>
+
+          </div>
+
+          <div class="startoff_price">
+            <h4>Starts from</h4>
+            <p>
+              <s>₦75000</s>
+              <strong>₦62500</strong>
+            </p>
+          </div>
+
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="service_data">
+          <div class="service-header">
+            <img src="{% static 'Assest/Img/electrical-maintenance.jpg' %}" alt="">
+            <div class="discount">10% off</div>
+
+            <div class="header_text">
+              <h3>Maintenance and Oversight</h3>
+              <div>
+                <i class="uil uil-star service_icon-star"></i>
+                <i class="uil uil-star service_icon-star"></i>
+                <i class="uil uil-star service_icon-star"></i>
+                <i class="uil uil-star service_icon-star"></i>
+                <i class="uil uil-star service_icon-star"></i>
+              </div>
+              <span>Comprehensive maintenance and oversight services to ensure the smooth operation and longevity of
+                your electrical systems and appliances.</span>
+            </div>
+
+          </div>
+
+          <div class="startoff_price">
+            <h4>Starts from</h4>
+            <p>
+              <s>₦40000</s>
+              <strong>₦36000</strong>
+            </p>
+          </div>
+
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="service_data">
+          <div class="service-header">
+            <img src="{% static 'Assest/Img/electrical-troubleshooting.jpg' %}" alt="">
+            <div class="discount">10% off</div>
+
+            <div class="header_text">
+              <h3>Troubleshooting</h3>
+              <div>
+                <i class="uil uil-star service_icon-star"></i>
+                <i class="uil uil-star service_icon-star"></i>
+                <i class="uil uil-star service_icon-star"></i>
+                <i class="uil uil-star service_icon-star"></i>
+                <i class="uil uil-star service_icon-star"></i>
+              </div>
+              <span>Expert troubleshooting services to quickly diagnose and resolve any electrical issues in your home,
+                ensuring safety and functionality</span>
+            </div>
+
+          </div>
+
+          <div class="startoff_price">
+            <h4>Starts from</h4>
+            <p>
+              <s>₦75000</s>
+              <strong>₦62500</strong>
+            </p>
+          </div>
+
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="service_data">
+          <div class="service-header">
+            <img src="{% static 'Assest/Img/wiring5.jpeg' %}" alt="">
+            <div class="discount">10% off</div>
+
+            <div class="header_text">
+              <h3>House Wiring</h3>
+              <div>
+                <i class="uil uil-star service_icon-star"></i>
+                <i class="uil uil-star service_icon-star"></i>
+                <i class="uil uil-star service_icon-star"></i>
+                <i class="uil uil-star service_icon-star"></i>
+                <i class="uil uil-star service_icon-star"></i>
+              </div>
+              <span>Professional house wiring services, ensuring safe and efficient electrical connections tailored to
+                your home's needs and specifications</span>
+            </div>
+
+          </div>
+
+          <div class="startoff_price">
+            <h4>Starts from</h4>
+            <p>
+              <s>₦75000</s>
+              <strong>₦62500</strong>
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- expert section -->
+
+  <section class="expert_section swiper">
+    <div class="expert_heading">
+      <h2>Recommended Experts For You </h2>
+      <a href="">View All</a>
+    </div>
+    <div class="swiper-wrapper">
+      <!-- Expert one -->
+      <div class="swiper-slide">
+        <div class="expert_data">
+
+          <img src="{% static 'Assest/Img/expert1.jpg' %}" alt="">
+
+          <div class="expert_works">
+            <h3>Thomson Franklin Group</h3>
+            <div>
+              <i class="uil uil-star service_icon-star"></i>
+              <i class="uil uil-star service_icon-star"></i>
+              <i class="uil uil-star service_icon-star"></i>
+              <i class="uil uil-star service_icon-star"></i>
+              <i class="uil uil-star service_icon-star"></i>
+            </div>
+            <p>Electric Wiring, Electronic Repairs, Repair services</p>
+
+            <h3><i class="uil uil-map-marker"></i> Nobis commodi dolore</h3>
+
+
+          </div>
+        </div>
+      </div>
+
+      <!-- Expert two -->
+      <div class="swiper-slide">
+        <div class="expert_data">
+
+          <img src="{% static 'Assest/Img/expert2.jpg' %}" alt="">
+          <div class="expert_works">
+            <h3>Thomson Franklin Group</h3>
+            <div>
+              <i class="uil uil-star service_icon-star"></i>
+              <i class="uil uil-star service_icon-star"></i>
+              <i class="uil uil-star service_icon-star"></i>
+              <i class="uil uil-star service_icon-star"></i>
+              <i class="uil uil-star service_icon-star"></i>
+            </div>
+
+            <p>Electric Wiring, Electronic Repairs, Repair services</p>
+
+            <h3><i class="uil uil-map-marker"></i> Nobis commodi dolore</h3>
+
+
+          </div>
+        </div>
+      </div>
+
+      <!-- Expert three -->
+      <div class="swiper-slide">
+        <div class="expert_data">
+
+          <img src="{% static 'Assest/Img/expert3.png' %}" alt="">
+          <div class="expert_works">
+            <h3>Thomson Franklin Group</h3>
+            <div class>
+              <i class="uil uil-star service_icon-star"></i>
+              <i class="uil uil-star service_icon-star"></i>
+              <i class="uil uil-star service_icon-star"></i>
+              <i class="uil uil-star service_icon-star"></i>
+              <i class="uil uil-star service_icon-star"></i>
+            </div>
+            <p>Electric Wiring, Electronic Repairs, Repair services</p>
+
+            <h3><i class="uil uil-map-marker"></i> Nobis commodi dolore</h3>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- customized post section -->
+  <section class="customized_post">
+    <img src="{% static 'Assest/Img/custom.png' %}" alt="" class="post-img">
+    <div class="post_text">
+      <h3>Post for Customized Services</h3>
+      <p>Create a post with customized description with additional instruction for a service</p>
+      <button type="submit" class="post-btn">Create Post </button>
+    </div>
+  </section>
+
+  <!-- Trending services section -->
+  <section class="trending_services swiper">
+    <div class="trend_heading">
+      <h2>Trending Services</h2>
+      <a href="">View All</a>
+    </div>
+    <div class="swiper-wrapper">
+
+
+      <!-- trend one -->
+      <div class="swiper-slide">
+        <div class="trend_data">
+
+          <div class="Trends">
+            <div class="trend-discount">10% off</div>
+            <img src="{% static 'Assest/Img/solar2.jpeg' %}" alt="">
+            <h3>Solar Installation</h3>
+            <button type="submit" class="trend-btn">Book Service <i class="uil uil-message"></i></button>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- trend Two -->
+      <div class="swiper-slide">
+        <div class="trend_data">
+
+          <div class="Trends">
+            <div class="trend-discount">10% off</div>
+            <img src="{% static 'Assest/Img/cctv2.jpeg' %}" alt="">
+            <h3>CCTV Camera Installation</h3>
+            <button type="submit" class="trend-btn">Book Service <i class="uil uil-message"></i></button>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- trend Three -->
+      <div class="swiper-slide">
+        <div class="trend_data">
+
+          <div class="Trends">
+            <div class="trend-discount">10% off</div>
+            <img src="{% static 'Assest/Img/wiring5.jpeg' %}" alt="">
+            <h3>House Wiring Services</h3>
+            <button type="submit" class="trend-btn">Book Service <i class="uil uil-message"></i></button>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- trend four -->
+      <div class="swiper-slide">
+        <div class="trend_data">
+
+          <div class="Trends">
+            <div class="trend-discount">10% off</div>
+            <img src="{% static 'Assest/Img/ac2.jpeg' %}" alt="">
+            <h3>AC Installation</h3>
+            <button type="submit" class="trend-btn">Book Service <i class="uil uil-message"></i></button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!-- <div class="swiper-scrollbar"></div> -->
+
+  </section>
+
+
+
+
+  <!-- Testimonial section -->
+
+  <section class="testimonial_section">
+    <div class="testimonial_heading">
+      <h2 class="">Testimonial</h2>
+      <span>What our clients are saying</span>
+    </div>
+    <div class="testimonial_container swiper">
+      <div class="swiper-wrapper">
+        <!-- Testimonial section 1 -->
+        <div class="testimonial swiper-slide">
+          <div class="testimonial-cards">
+            <div class="testifier">
+              <img src="{% static 'Assest/Img/custom.png' %}" alt="">
+              <div class="desc">
+                <h2>John Doe</h2>
+                <h4>Web Developer</h4>
+              </div>
+            </div>
+            <div class="testimony">
+              <p>Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit
+                amet consecteturLorem ipsum dolor sit amet consectetur</p>
+              <div class="rating">
+                <i class="uil uil-star service_icon-star"></i>
+                <i class="uil uil-star service_icon-star"></i>
+                <i class="uil uil-star service_icon-star"></i>
+                <i class="uil uil-star service_icon-star"></i>
+                <i class="uil uil-star service_icon-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Testimonial section 2-->
+        <div class="testimonial swiper-slide">
+          <div class="testimonial-cards">
+            <div class="testifier">
+              <img src="{% static 'Assest/Img/custom.png' %}" alt="">
+              <div class="desc">
+                <h2>John Doe</h2>
+                <h4>Web Developer</h4>
+              </div>
+            </div>
+            <div class="testimony">
+              <p>Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit
+                amet consecteturLorem ipsum dolor sit amet consectetur</p>
+              <div class="rating">
+                <i class="uil uil-star service_icon-star"></i>
+                <i class="uil uil-star service_icon-star"></i>
+                <i class="uil uil-star service_icon-star"></i>
+                <i class="uil uil-star service_icon-star"></i>
+                <i class="uil uil-star service_icon-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Testimonial section 3-->
+
+        <div class="testimonial swiper-slide">
+          <div class="testimonial-cards">
+            <div class="testifier">
+              <img src="{% static 'Assest/Img/custom.png' %}" alt="">
+              <div class="desc">
+                <h2>John Doe</h2>
+                <h4>Web Developer</h4>
+              </div>
+            </div>
+            <div class="testimony">
+              <p>Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit
+                amet consecteturLorem ipsum dolor sit amet consectetur</p>
+              <div class="rating">
+                <i class="uil uil-star service_icon-star"></i>
+                <i class="uil uil-star service_icon-star"></i>
+                <i class="uil uil-star service_icon-star"></i>
+                <i class="uil uil-star service_icon-star"></i>
+                <i class="uil uil-star service_icon-star"></i>
+              </div>
+            </div>
+          </div>
+
+        </div>
+  </section>
+
+  <!-- footer section  -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div>
+        <h3>Company</h3>
+        <ul>
+          <li><a href="">FAQ</a></li>
+          <li><a href="https://bit.ly/contact_ojm">Contact</a></li>
+          <li><a href="">About us</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Community</h3>
+        <ul>
+          <li><a href="prof-signup.html">Become A Smart Electrician</a></li>
+          <li><a href="signup.html">Become A Smart Customer</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Category</h3>
+        <ul>
+          <li><a href="">Electrical wiring</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Contact info</h3>
+        <ul>
+          <li><a href=""><i class="uil uil-map-marker"></i>42 okoro road Aba, Abia state.</a></li>
+          <li><a href=""><i class="uil uil-phone"></i>+2348109494805</a></li>
+          <li><a href=""><i class="uil uil-envelop"></i>ojmelectrical@gmail.com</a></li>
+        </ul>
+      </div>
+
+    </div>
+    <hr class="footer_rows">
+
+    <div class="footer-links">
+      <p class="footer_copy">&#169; ojm electrical
+        <script>document.write(new Date().getFullYear())</script>. All rights Reserved
+      </p>
+
+
+      <div class="footer_social">
+        <a href="https://facebook.com" target="_blank" class="footer_social">
+          <i class="uil uil-facebook-f"></i>
+        </a>
+        <a href="https://twitter.com" target="_blank" class="footer_social">
+          <i class="uil uil-twitter-alt"></i>
+        </a>
+        <a href="https://instagram.com" target="_blank" class="footer_social">
+          <i class="uil uil-instagram"></i>
+        </a>
+        <a href="https://whatsapp.com" target="_blank" class="footer_social">
+          <i class="uil uil-whatsapp"></i>
+        </a>
+      </div>
+
+      <a href="" class="payment">
+        <img src="{% static 'Assest/Img/pay.png' %}" alt="">
+      </a>
+    </div>
+
+  </footer>
+
+
+
+  <!-- js links -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="{% static 'Js/index.js' %}"></script>
+</body>
+
+</html>

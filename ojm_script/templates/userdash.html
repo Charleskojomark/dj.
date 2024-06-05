@@ -1,0 +1,265 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css" />
+    <link rel="stylesheet" href="{% static 'Css/userdash.css' %}">
+    <title>Account</title>
+</head>
+
+<body>
+    {% if messages %}
+      {% for m in messages %}
+      {% if forloop.last %}   
+  <div class="error-container" id="error-container">
+    <div class="errors" id="errors">
+      <span>{{m}}</span>
+      <button class="close-button" onclick="removeDiv('error-container')">✖</button>
+    </div>
+  </div>
+  {% endif %}
+  {% endfor %}
+  {% endif %}
+    <section>
+        <div class="heading">
+            <a href="index.html" class="nav_logo"><img src="{% static 'Assest/Img/ojm.png' %}" alt="Ojm" /></a>
+            <div class="nav">
+                <a href="index.html" class="">
+                    <i class="uil uil-comment-add"></i> <span class="newflex"><span>Post</span><span>Job</span></span>
+                </a>
+
+
+                <a href="{%url 'chatapp:messages'%}" class="">
+                    <i class="uil uil-envelopes"></i> Messages
+                </a>
+
+                <a href="pay.html" class="">
+                    <i class="uil uil-user-md"></i><span class="newflex"><span>Find</span><span>Experts</span></span>
+                </a>
+
+                <a href="{% url 'ojm_core:dashboard' %}" class="">
+                    <i class="uil uil-setting"></i>Settings
+                </a>
+            </div>
+        </div>
+        <div class="profile">
+            <div class="profile-info">
+                {% if profile.profile_picture %}
+                <img id="mainProfilePicLink" src="{{ profile.profile_picture.url }}" alt="Profile photo">
+                {% else %}
+                <img id="mainProfilePicLink" src="{% static 'Assest/Img/ojmprofilephoto.jpg' %}" alt="Profile photo">
+                {% endif %}
+                <div class="profile-details">
+                    <p class="name">{{request.user.username}}</p>
+                    <p class="email">{{request.user.email}}</p>
+                    <p class="profile-link"><a href="">View Profile</a></p>
+                </div>
+            </div>
+
+        </div>
+        <div class="profile-settings">
+            <div class="sub-profile">
+                <h3>Account Settings</h3>
+                <a href="#" id="profileSettingsPicLink">
+                    <div class="flex">
+                        <p>Profile Picture</p>
+                        <i class="uil uil-angle-right-b"></i>
+                    </div>
+                </a>
+                
+                <a href="#" id="locationLink">
+                    <div class="flex">
+                        <p>Location</p>
+                        <i class="uil uil-angle-right-b"></i>
+                    </div>
+                </a>
+                <a href="#" id="detailsLink">
+                    <div class="flex">
+                        <p>Personal Details</p>
+                        <i class="uil uil-angle-right-b"></i>
+                    </div>
+                </a>
+                
+                <a href="#" id="notificationLink">
+                    <div class="flex">
+                        <p>Notifications</p>
+                        <i class="uil uil-angle-right-b"></i>
+                    </div>
+                </a>
+                <a href="#" id="passwordLink">
+                    <div class="flex">
+                        <p>Change Password</p>
+                        <i class="uil uil-angle-right-b"></i>
+                    </div>
+                </a>
+            </div>
+        </div>
+        
+        <div class="account-settings">
+            <div class="sub-profile">
+                <h3>Support</h3>
+                <a href="#">
+                    <div class="flex">
+                        <p>FAQ</p>
+                        <i class="uil uil-angle-right-b"></i>
+                    </div>
+                </a>
+                <a href="https://bit.ly/contact_ojm" target="_blank">
+                    <div class="flex">
+                        <p>Contact Us</p>
+                        <i class="uil uil-angle-right-b"></i>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="flex">
+                        <p>About Us</p>
+                        <i class="uil uil-angle-right-b"></i>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="logout">
+            <a href="{%url 'userauth:logout'%}">
+                <p>Logout</p>
+                <i class="uil uil-signout"></i>
+            </a>
+        </div>
+    </section>
+
+    <div id="uploadModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Upload Your Photo</h2>
+            {% if profile.profile_picture %}
+                <img id="currentProfilePic" src="{{ profile.profile_picture.url }}" alt="Profile photo">
+            {% else %}
+                <img id="currentProfilePic" src="{% static 'Assest/Img/ojmprofilephoto.jpg' %}" alt="Profile photo">
+            {% endif %}
+
+            <form id="uploadForm" method="post" enctype="multipart/form-data" action="{% url 'userauth:update_customer_pic' %}">
+                {% csrf_token %}
+                <label for="fileInput" class="custom-file-input">
+                    <span class="custom-file-input-label">Upload</span>
+                </label>
+                {{ profile_pic_form }}
+                <p>Max size: 10MB</p>
+                <button class="btn" type="submit">Update</button>
+            </form>
+            <p id="error" style="color: red;"></p>
+        </div>
+    </div>
+
+
+
+    <div id="locationModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Location</h2>
+            <form id="businessInfoForm" method="post" action="{% url 'userauth:customer_location'%}">
+                {%csrf_token%}
+                <div>
+                    <label for="country">Country</label>
+                    {{location_form.country}}
+                </div>                
+                <div>
+                    <label for="state">State</label>
+                    {{location_form.state}}
+                </div>                
+                <div>
+                    <label for="city">City</label>
+                    {{location_form.city}}
+                </div>
+                
+                <div>
+                    <label for="address">Address</label>
+                    {{location_form.address}}
+                </div>
+                
+                <button class="btn" type="submit">Update</button>
+            </form>
+        </div>
+    </div>
+
+    
+
+    <div id="detailsModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Personal Details</h2>
+            <form id="businessInfoForm" method="post", action="{% url 'userauth:update_user'%}">
+                {%csrf_token%}
+                <div>
+                    <label for="firstname">First name</label>
+                    {{form.first_name}}
+                </div>
+                
+                <div>
+                    <label for="lastname">Last name</label>
+                    {{form.last_name}}
+                </div>
+                
+                <div>
+                    <label for="phonenumber">Phone Number</label>
+                    {{form.phone_number}}
+                </div>
+                
+                <div>
+                    <label for="whatsapp">Whatsapp Number</label>
+                    {{form.whatsapp_number}}
+                </div>
+                
+                
+                <button class="btn" type="submit">Update</button>
+            </form>
+        </div>
+    </div>
+    
+
+
+    <div id="notificationModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>All Notifications</h2>
+        </div>
+    </div>
+
+    <div id="passwordModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Business Info</h2>
+            <form id="businessInfoForm" method="post" action="{%url 'userauth:change_password'%}">
+                {% csrf_token %}
+                <div>
+                    <label for="currentPassword">Current Password</label>
+                <input type="password" id="currentPassword" name="old_password" value="">
+                </div>
+                
+                <div>
+                    <label for="newPassword">New Password</label>
+                    <input type="password" id="newPassword" name="new_password" value="">
+                </div>
+                
+                <div>
+                    <label for="confirmPassword">Confirm password</label>
+                    <input type="password" id="confirmPassword" name="confirm_password" value="">
+                </div>
+                
+                <button class="btn" type="submit">Update</button>
+            </form>
+        </div>
+    </div>
+
+    
+
+
+    
+    {% block extra_js %}
+<script src="{% static 'Js/user.js' %}"></script>
+{% endblock %}
+</body>
+
+</html>

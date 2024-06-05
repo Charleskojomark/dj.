@@ -1,0 +1,18 @@
+.ojm_background {
+    background: url('../Assest/Img/ojmelectrical_background 9.jpg') no-repeat;
+    background-size: cover;
+    transition: background .5s ease;
+    position: relative;
+    top: -20px;
+    width: 99vw;
+    height: 100vh;
+}
+.login-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+    background: white;
+    border-radius: 15px;
+    max-width: 500px;
+    margin: auto;
+}

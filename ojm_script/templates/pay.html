@@ -1,0 +1,91 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select a Plan</title>
+    <link rel="stylesheet" href="{% static 'Css/pay.css' %}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap">
+</head>
+<body>
+    <div class="container">
+        <h1>Select a Plan</h1>
+        <p>Keep 100% of what you earn when you get hired. No hidden fees or commission</p>
+        <button class="btn" onclick="showSection('subscribe-section')">Subscribe</button>
+        <button class="btn" onclick="showSection('fund-wallet-section')">Fund Wallet</button>
+        
+        <div id="subscribe-section" class="section">
+            <h2>Subscribe to contact clients for free</h2>
+            <div class="plans">
+                <div class="plan" onclick="selectSubscriptionPlan('subscribe-plan1', '₦14,000', '₦12,000 (15% off)', 'Save ₦2,000')">
+                    <input type="checkbox" id="subscribe-plan1" name="subscribe-plan" value="14000" hidden>
+                    <label for="subscribe-plan1">
+                        <h3>1 Month</h3>
+                        <p class="price">₦14,000</p>
+                        <p class="save">₦12,000 (15% off)</p>
+                    </label>
+                </div>
+                <div class="plan" onclick="selectSubscriptionPlan('subscribe-plan2', '₦11,900', '₦10,115 (15% off)', 'Save ₦1,785')">
+                    <input type="checkbox" id="subscribe-plan2" name="subscribe-plan" value="11900" hidden>
+                    <label for="subscribe-plan2">
+                        <h3>3 Months</h3>
+                        <p class="price">₦11,900</p>
+                        <p class="save">₦10,115 (15% off)</p>
+                    </label>
+                </div>
+                <div class="plan" onclick="selectSubscriptionPlan('subscribe-plan3', '₦20,000', '₦17,000 (15% off)', 'Save ₦3,000')">
+                    <input type="checkbox" id="subscribe-plan3" name="subscribe-plan" value="20000" hidden>
+                    <label for="subscribe-plan3">
+                        <h3>6 Months</h3>
+                        <p class="price">₦20,000</p>
+                        <p class="save">₦17,000 (15% off)</p>
+                    </label>
+                </div>
+            </div>
+            <p>Recurring billing • Cancel anytime</p>
+            <div id="selected-subscription" class="selected-plan" style="display:none;">
+                <h3>Selected Subscription Plan</h3>
+                <p id="selected-subscription-price" class="price"></p>
+                <p id="selected-subscription-save" class="save"></p>
+                <button class="btn">Pay Now</button>
+            </div>
+        </div>
+        
+        <div id="fund-wallet-section" class="section">
+            <h2>Fund your wallet to start paying per quote</h2>
+            <div class="plans">
+                <div class="plan" onclick="selectFundPlan('fund-plan1', '₦10,000', '₦8,500 (15% off)', 'Save ₦1,500')">
+                    <input type="checkbox" id="fund-plan1" name="fund-plan" value="10000" hidden>
+                    <label for="fund-plan1">
+                        <h3>₦10,000</h3>
+                        <p class="save">₦8,500 (15% off)</p>
+                    </label>
+                </div>
+                <div class="plan" onclick="selectFundPlan('fund-plan2', '₦20,000', '₦16,950 (15% off)', 'Save ₦3,050')">
+                    <input type="checkbox" id="fund-plan2" name="fund-plan" value="20000" hidden>
+                    <label for="fund-plan2">
+                        <h3>₦20,000</h3>
+                        <p class="save">₦16,950 (15% off)</p>
+                    </label>
+                </div>
+                <div class="plan" onclick="selectFundPlan('fund-plan3', '₦30,000', '₦25,500 (15% off)', 'Save ₦4,500')">
+                    <input type="checkbox" id="fund-plan3" name="fund-plan" value="30000" hidden>
+                    <label for="fund-plan3">
+                        <h3>₦30,000</h3>
+                        <p class="save">₦25,500 (15% off)</p>
+                    </label>
+                </div>
+            </div>
+            <p>Easiest ways to get customers</p>
+            <div id="selected-plan" class="selected-plan" style="display:none;">
+                <h3>Selected Plan</h3>
+                <p id="selected-plan-price" class="price"></p>
+                <p id="selected-plan-save" class="save"></p>
+                <button class="btn">Pay Now</button>
+            </div>
+        </div>
+    </div>
+    <script src="{% static 'Js/pay.js' %}"></script>
+</body>
+</html>

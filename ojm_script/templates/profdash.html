@@ -1,0 +1,487 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css" />
+    <link rel="stylesheet" href="{% static 'Css/profdash.css' %}">
+    <link rel="stylesheet" href="{% static 'Css/signup.css' %}">
+    <title>Account</title>
+</head>
+
+<body>
+
+    {% if messages %}
+      {% for m in messages %}
+      {% if forloop.last %}   
+  <div class="error-container" id="error-container">
+    <div class="errors" id="errors">
+      <span>{{m}}</span>
+      <button class="close-button" onclick="removeDiv('error-container')">✖</button>
+    </div>
+  </div>
+  {% endif %}
+  {% endfor %}
+  {% endif %}
+    <section>
+        <div class="heading">
+            <a href="index.html" class="nav_logo"><img src="{% static 'Assest/Img/ojm.png' %}" alt="Ojm" /></a>
+            <div class="nav">
+                <a href="index.html" class="">
+                    <i class="uil uil-comment-add"></i> Requests
+                </a>
+
+
+                <a href="{%url 'chatapp:messages'%}" class="">
+                    <i class="uil uil-envelopes"></i> Messages
+                </a>
+
+                <a href="pay.html" class="">
+                    <i class="uil uil-money-bill"></i>Pricing
+                </a>
+
+                <a href="{% url 'ojm_core:dashboard' %}" class="">
+                    <i class="uil uil-setting"></i>Settings
+                </a>
+            </div>
+        </div>
+        <div class="profile">
+            <div class="profile-info">
+                {% if profile.profile_picture %}
+                <img id="mainProfilePicLink" src="{{ profile.profile_picture.url }}" alt="Profile photo">
+                {% else %}
+                <img id="mainProfilePicLink" src="{% static 'Assest/Img/ojmprofilephoto.jpg' %}" alt="Profile photo">
+                {% endif %}
+
+                <div class="profile-details">
+                    <p class="name">{{profile.business_name}}</p>
+                    <p class="email">{{request.user.email}}</p>
+                    <p class="profile-link"><a href="">View Profile</a></p>
+                </div>
+            </div>
+
+            <div class="subscription">
+                <div class="top">
+                    <div class="subscription-status">
+                        <div class="status">
+                            <p>Subscription Status</p>
+                            <span>Active</span>
+                        </div>
+                        <div class="wallet">
+                            <p>Wallet Balance</p>
+                            <span>#200.00</span>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="bottom">
+                    <a href="pay.html">
+                        <div class="subscribe">
+                            <i class="uil uil-folder-check"></i>
+                            <p>Subscribe</p>
+                        </div>
+                    </a>
+                    <a href="pay.html">
+                        <div class="fund-wallet">
+                            <i class="uil uil-wallet"></i>
+                            <p>Fund wallet</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="profile-settings">
+            <div class="sub-profile">
+                <h3>Profile Settings</h3>
+                <a href="#" id="profileSettingsPicLink">
+                    <div class="flex">
+                        <p>Profile Picture</p>
+                        <i class="uil uil-angle-right-b"></i>
+                    </div>
+                </a>
+                <a href="#" id="businessInfoLink">
+                    <div class="flex">
+                        <p>Business Info</p>
+                        <i class="uil uil-angle-right-b"></i>
+                    </div>
+                </a>
+                <a href="#" id="serviceLink">
+                    <div class="flex">
+                        <p>Services</p>
+                        <i class="uil uil-angle-right-b"></i>
+                    </div>
+                </a>
+                <a href="#" id="locationLink">
+                    <div class="flex">
+                        <p>Location</p>
+                        <i class="uil uil-angle-right-b"></i>
+                    </div>
+                </a>
+                <a href="#" id="priceLink">
+                    <div class="flex">
+                        <p>Prices</p>
+                        <i class="uil uil-angle-right-b"></i>
+                    </div>
+                </a>
+                <a href="#" id="qualificationLink">
+                    <div class="flex">
+                        <p>Qualifications</p>
+                        <i class="uil uil-angle-right-b"></i>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="account-settings">
+            <div class="sub-profile">
+                <h3>Account Settings</h3>
+                <a href="#" id="detailsLink">
+                    <div class="flex">
+                        <p>Personal Details</p>
+                        <i class="uil uil-angle-right-b"></i>
+                    </div>
+                </a>
+                
+                <a href="#" id="verificationLink">
+                    <div class="flex">
+                        <p>Verification</p>
+                        <i class="uil uil-angle-right-b"></i>
+                    </div>
+                </a>
+                <a href="#" id="notificationLink">
+                    <div class="flex">
+                        <p>Notifications</p>
+                        <i class="uil uil-angle-right-b"></i>
+                    </div>
+                </a>
+                <a href="#" id="passwordLink">
+                    <div class="flex">
+                        <p>Change Password</p>
+                        <i class="uil uil-angle-right-b"></i>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="account-settings">
+            <div class="sub-profile">
+                <h3>Payment</h3>
+                <a href="#" id="orderLink">
+                    <div class="flex">
+                        <p>Orders</p>
+                        <i class="uil uil-angle-right-b"></i>
+                    </div>
+                </a>
+                <a href="#" id="subscriptionLink">
+                    <div class="flex">
+                        <p>Subscriptions</p>
+                        <i class="uil uil-angle-right-b"></i>
+                    </div>
+                </a>
+                <a href="#" id="walletLink">
+                    <div class="flex">
+                        <p>Wallet Transactions</p>
+                        <i class="uil uil-angle-right-b"></i>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="account-settings">
+            <div class="sub-profile">
+                <h3>Support</h3>
+                <a href="#">
+                    <div class="flex">
+                        <p>FAQ</p>
+                        <i class="uil uil-angle-right-b"></i>
+                    </div>
+                </a>
+                <a href="https://bit.ly/contact_ojm" target="_blank">
+                    <div class="flex">
+                        <p>Contact Us</p>
+                        <i class="uil uil-angle-right-b"></i>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="flex">
+                        <p>About Us</p>
+                        <i class="uil uil-angle-right-b"></i>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="logout">
+            <a href="{%url 'userauth:logout'%}">
+                <p>Logout</p>
+                <i class="uil uil-signout"></i>
+            </a>
+        </div>
+    </section>
+
+    <div id="uploadModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Upload Your Photo</h2>
+
+            {% if profile.profile_picture %}
+                <img id="currentProfilePic" src="{{ profile.profile_picture.url }}" alt="Profile photo">
+            {% else %}
+                <img id="currentProfilePic" src="{% static 'Assest/Img/ojmprofilephoto.jpg' %}" alt="Profile photo">
+            {% endif %}
+
+            <form id="uploadForm" method="post" enctype="multipart/form-data" action="{% url 'userauth:update_pic' %}">
+                {% csrf_token %}
+                <label for="fileInput" class="custom-file-input">
+                    <span class="custom-file-input-label">Upload</span>
+                </label>
+                {{ profile_pic_form }}
+                <p>Max size: 10MB</p>
+                <button class="btn" type="submit">Update</button>
+            </form>
+            <p id="error" style="color: red;"></p>
+        </div>
+    </div>
+
+
+    <div id="businessInfoModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Business Info</h2>
+            <form id="businessInfoForm" method="post" action="{% url 'userauth:business_info'%}">
+                {%csrf_token%}
+                <div>
+                    <label for="displayName">Display name</label>
+                    {{business_form.business_name}}
+                </div>
+                
+                <div>
+                    <label for="businessDescription">Business description</label>
+                    {{business_form.service_description}}
+                </div>
+                
+                <div class="checkbox">
+                    {{business_form.registered}}
+                    <label for="registered">Registered Business</label>
+                  </div>
+
+                <div>
+                    <label for="yearFounded">Year founded</label>
+                    {{business_form.founded_date}}
+                </div>
+                
+                <div>
+                    <label for="numEmployees">Number of employees</label>
+                    {{ business_form.number_of_employees }}
+                </div>
+                
+                <div>
+                    <label for="websiteURL">Website URL</label>
+                    {{ business_form.website_url }}
+                </div>
+                
+                <div>
+                    <label for="youtubeURL">Youtube URL</label>
+                    {{ business_form.youtube_url }}
+                </div>
+                
+                <button class="btn" type="submit">Update</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="serviceModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Services</h2>
+            <form id="businessInfoForm">
+                <div>
+                    <label for="category">Service Category</label>
+                    <input type="text" id="category" value="Electrical Services">
+                </div>
+                <div>
+                    <label for="sub-category">Sub Category</label>
+                    <input type="text" id="sub-category">
+                </div>
+                
+                <button class="btn" type="submit">Update</button>
+            </form>
+        </div>
+    </div>
+
+
+    <div id="locationModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Location</h2>
+            <form id="businessInfoForm" method="post" action="{% url 'userauth:location'%}">
+                {%csrf_token%}
+                <div>
+                    <label for="country">Country</label>
+                    {{location_form.country}}
+                </div>                
+                <div>
+                    <label for="state">State</label>
+                    {{location_form.state}}
+                </div>                
+                <div>
+                    <label for="city">City</label>
+                    {{location_form.city}}
+                </div>
+                
+                <div>
+                    <label for="address">Address</label>
+                    {{location_form.address}}
+                </div>
+                
+                <button class="btn" type="submit">Update</button>
+            </form>
+        </div>
+    </div>
+
+    
+    <div id="priceModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Prices</h2>
+            
+            <form id="businessInfoForm" method="post" action="{% url 'userauth:prices'%}">
+                {%csrf_token%}
+                <label for="prices">Prices</label>
+                <small>Explain your prices (e.g. We charge ₦50,000 on average for a 5 page static website.)</small>
+                {{prices_form.prices}}
+                <button class="btn" type="submit">Update</button>
+            </form>
+        </div>
+    </div>
+
+    
+    <div id="qualificationModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Business Info</h2>
+            <form id="businessInfoForm" method="post", action="{% url 'userauth:qualification'%}">
+                {%csrf_token%}
+                <label for="qualification">Qualification</label>
+                <small>Let customers know how qualified you are</small>
+                {{qualification_form.qualification}}
+                
+                <button class="btn" type="submit">Update</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="detailsModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Personal Details</h2>
+            <form id="businessInfoForm" method="post", action="{% url 'userauth:update_user'%}">
+                {%csrf_token%}
+                <div>
+                    <label for="firstname">First name</label>
+                    {{form.first_name}}
+                </div>
+                
+                <div>
+                    <label for="lastname">Last name</label>
+                    {{form.last_name}}
+                </div>
+                
+                <div>
+                    <label for="phonenumber">Phone Number</label>
+                    {{form.phone_number}}
+                </div>
+                
+                <div>
+                    <label for="whatsapp">Whatsapp Number</label>
+                    {{form.whatsapp_number}}
+                </div>
+                
+                
+                <button class="btn" type="submit">Update</button>
+            </form>
+        </div>
+    </div>
+    
+    <div id="bankModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Bank Details</h2>
+            <form id="businessInfoForm">
+                <p>Yet to be implemented</p>
+                <button class="btn" type="submit">Update</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="verificationModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Verifications</h2>
+            <form id="businessInfoForm">
+                <p>Yet to be implemented</p>
+                <button class="btn" type="submit">Update</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="notificationModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>All Notifications</h2>
+        </div>
+    </div>
+
+    <div id="passwordModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Business Info</h2>
+            <form id="businessInfoForm" method="post" action="{%url 'userauth:change_password'%}">
+                {% csrf_token %}
+                <div>
+                    <label for="currentPassword">Current Password</label>
+                <input type="password" id="currentPassword" name="old_password" value="">
+                </div>
+                
+                <div>
+                    <label for="newPassword">New Password</label>
+                    <input type="password" id="newPassword" name="new_password" value="">
+                </div>
+                
+                <div>
+                    <label for="confirmPassword">Confirm password</label>
+                    <input type="password" id="confirmPassword" name="confirm_password" value="">
+                </div>
+                
+                <button class="btn" type="submit">Update</button>
+            </form>
+        </div>
+    </div>
+
+    
+    <div id="orderModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>All Orders</h2>
+        </div>
+    </div>
+
+    
+    <div id="subscriptionModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Subscription Packages</h2>
+        </div>
+    </div>
+
+    
+    <div id="walletModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Wallet Transactions</h2>
+        </div>
+    </div>
+
+<script src="{% static 'Js/prof.js' %}"></script>
+
+</body>
+
+</html>

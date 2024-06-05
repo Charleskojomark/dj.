@@ -1,0 +1,174 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <!-- css links -->
+  <link rel="stylesheet" href="{% static 'Css/style.css' %}">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link rel="shortcut icon" href="Assest/Img/ojm log.png" type="image/x-icon" />
+  <!-- icon link -->
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up</title>
+  <link rel="stylesheet" href="{% static 'Css/signup.css' %}">
+
+</head>
+
+<body>
+  <section class="ojm_background">
+    <header class="header" id="header">
+      <nav class="nav contanier">
+
+        <a href="index.html" class="nav_logo"><img src="{% static 'Assest/Img/ojm.png' %}" alt="" /></a>
+
+        <div class="nav_menu" id="nav-menu">
+          <ul class="nav_list">
+            <li class="nav_item">
+              <a href="index.html" class="nav_link active_link" style="color: rgb(243, 182, 18);">
+                <i class="uil uil-estate nav_icon"></i> Home
+              </a>
+            </li>
+
+            <li class="nav_item">
+              <a href="" class="nav_link">
+                <i class="uil uil-briefcase-alt nav_icon"></i> Services
+              </a>
+            </li>
+
+            <li class="nav_item">
+              <a href="sign.html" class="nav_link">
+                {%if request.user.is_authenticated%}
+            <i class="uil uil-setting nav_icon"></i>Settings
+            {%else%}
+            <i class="uil uil-user-plus nav_icon"></i> <span class="flex"><span>Join</span><span>Us</span></span>
+            </li>
+            {% endif %}</a>
+            </li>
+
+            <li class="nav_item">
+              <a href="https://bit.ly/contact_ojm" class="nav_link">
+                <i class="uil uil-whatsapp nav_icon"></i> <span class="flex"><span>Contact</span><span>Us</span></span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav_btns">
+          <div class="dot-container">
+            <i class="uil uil-bell"></i>
+            <div class="dot">1</div>
+          </div>
+
+          <div class="icon-container">
+            <i class="uil uil-user" style="font-size: 25px; cursor: pointer;"></i>
+            <div class="links-card">
+              {%if request.user.is_authenticated%}
+              <a href="{% url 'ojm_core:dashboard' %}">Account</a>
+              {%else%}
+              <a href="{% url 'userauth:sign' %}">Sign Up</a>
+              {%endif%}
+              {%if request.user.is_authenticated%}
+              <a href="{% url 'userauth:logout' %}">Logout</a>
+              {% else %}
+              <a href="{% url 'userauth:login' %}">Login</a>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+        </div>
+      </nav>
+    </header>
+
+
+    <div class="new-signup">
+        <div class="sign">
+            <h3>Sign Up As</h3>
+            <div class="sign-container">
+                <a href="{% url 'userauth:prof-signup' %}" class="btn">Electrician</a>
+                <a href="{% url 'userauth:signup' %}" class="btn">Customer</a>
+            </div>
+        </div>
+        <p>Already have an account? <span><a href="{% url 'userauth:login' %}">Login</a></span></p>
+    </div>
+    
+
+
+  </section>
+
+
+  <!-- footer section  -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div>
+        <h3>Company</h3>
+        <ul>
+          <li><a href="">FAQ</a></li>
+          <li><a href="https://bit.ly/contact_ojm">Contact</a></li>
+          <li><a href="">About us</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Community</h3>
+        <ul>
+          <li><a href="prof-signup.html">Become A Smart Electrician</a></li>
+          <li><a href="signup.html">Become A Smart Customer</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Category</h3>
+        <ul>
+          <li><a href="">Electrical wiring</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Contact info</h3>
+        <ul>
+          <li><a href=""><i class="uil uil-map-marker"></i>42 okoro road Aba, Abia state.</a></li>
+          <li><a href=""><i class="uil uil-phone"></i>+2348109494805</a></li>
+          <li><a href=""><i class="uil uil-envelop"></i>ojmelectrical@gmail.com</a></li>
+        </ul>
+      </div>
+
+    </div>
+    <hr class="footer_rows">
+
+    <div class="footer-links">
+      <p class="footer_copy">&#169; ojm electrical
+        <script>document.write(new Date().getFullYear())</script>. All rights Reserved
+      </p>
+
+
+      <div class="footer_social">
+        <a href="https://facebook.com" target="_blank" class="footer_social">
+          <i class="uil uil-facebook-f"></i>
+        </a>
+        <a href="https://twitter.com" target="_blank" class="footer_social">
+          <i class="uil uil-twitter-alt"></i>
+        </a>
+        <a href="https://instagram.com" target="_blank" class="footer_social">
+          <i class="uil uil-instagram"></i>
+        </a>
+        <a href="https://whatsapp.com" target="_blank" class="footer_social">
+          <i class="uil uil-whatsapp"></i>
+        </a>
+      </div>
+
+      <a href="" class="payment">
+        <img src="{% static 'Assest/Img/pay.png' %}" alt="">
+      </a>
+    </div>
+
+  </footer>
+
+
+
+</body>
+
+</html>

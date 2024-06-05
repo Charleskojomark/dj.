@@ -1,0 +1,8 @@
+<div>
+    {%for u in users%}
+    {{u.username}}
+    {{u.email}}
+    <a href="{%url 'chatapp:chat' u.username%}">Chat with me</a>
+    <a href="{%url 'ojm_core:single' u.pk%}">See me in details</a>
+    {%endfor%}
+</div>
