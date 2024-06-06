@@ -1,0 +1,39 @@
+databases:
+  - name: ojm_script
+    plan: free
+    databaseName: ojm_script
+    user: postgres
+
+services:
+  - type: web
+    plan: free
+    name: ojm_script
+    runtime: python
+    buildCommand: "./build.sh"  # Adjust this if you have a build script
+    startCommand: "gunicorn ojm_script.asgi:application -k uvicorn.workers.UvicornH11Worker"
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: ojm_script
+          property: connectionString
+      - key: SECRET_KEY
+        generateValue: true
+      - key: WEB_CONCURRENCY
+        value: 4
+      # Add the remaining environment variables
+      - key: EMAIL_HOST_USER
+        value: markcharleskojo@gmail.com
+      - key: EMAIL_HOST_PASSWORD
+        value: 'rqrzjcrpbfrblrom'  # Enclosed in quotes
+      - key: PUSHER_APP_ID
+        value: '1814189'
+      - key: PUSHER_KEY
+        value: '10336bd809bc9424aff5'
+      - key: PUSHER_SECRET
+        value: 'd6c111c14da250c3bebe'
+      - key: PUSHER_CLUSTER
+        value: 'eu'
+      - key: SSL
+        value: 'True'
+      - key: DEBUG
+        value: 'False'  # Set DEBUG to False in production

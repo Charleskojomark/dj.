@@ -1,0 +1,1932 @@
+[
+    {
+        "label": "chatapp.models",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "chatapp.models",
+        "description": "chatapp.models",
+        "detail": "chatapp.models",
+        "documentation": {}
+    },
+    {
+        "label": "django.db.models.deletion",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db.models.deletion",
+        "description": "django.db.models.deletion",
+        "detail": "django.db.models.deletion",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "messages",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "get_random_string",
+        "importPath": "django.utils.crypto",
+        "description": "django.utils.crypto",
+        "isExtraImport": true,
+        "detail": "django.utils.crypto",
+        "documentation": {}
+    },
+    {
+        "label": "hashlib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "hashlib",
+        "description": "hashlib",
+        "detail": "hashlib",
+        "documentation": {}
+    },
+    {
+        "label": "userauth.models",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "userauth.models",
+        "description": "userauth.models",
+        "detail": "userauth.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "userauth.models",
+        "description": "userauth.models",
+        "isExtraImport": true,
+        "detail": "userauth.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "userauth.models",
+        "description": "userauth.models",
+        "isExtraImport": true,
+        "detail": "userauth.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "userauth.models",
+        "description": "userauth.models",
+        "isExtraImport": true,
+        "detail": "userauth.models",
+        "documentation": {}
+    },
+    {
+        "label": "ElectricianProfile",
+        "importPath": "userauth.models",
+        "description": "userauth.models",
+        "isExtraImport": true,
+        "detail": "userauth.models",
+        "documentation": {}
+    },
+    {
+        "label": "CustomerProfile",
+        "importPath": "userauth.models",
+        "description": "userauth.models",
+        "isExtraImport": true,
+        "detail": "userauth.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "userauth.models",
+        "description": "userauth.models",
+        "isExtraImport": true,
+        "detail": "userauth.models",
+        "documentation": {}
+    },
+    {
+        "label": "ElectricianProfile",
+        "importPath": "userauth.models",
+        "description": "userauth.models",
+        "isExtraImport": true,
+        "detail": "userauth.models",
+        "documentation": {}
+    },
+    {
+        "label": "CustomerProfile",
+        "importPath": "userauth.models",
+        "description": "userauth.models",
+        "isExtraImport": true,
+        "detail": "userauth.models",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "reverse",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "reverse",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "reverse_lazy",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "get_object_or_404",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "get_object_or_404",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "get_object_or_404",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "login_required",
+        "importPath": "django.contrib.auth.decorators",
+        "description": "django.contrib.auth.decorators",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "login_required",
+        "importPath": "django.contrib.auth.decorators",
+        "description": "django.contrib.auth.decorators",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "login_required",
+        "importPath": "django.contrib.auth.decorators",
+        "description": "django.contrib.auth.decorators",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "JsonResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "HttpResponseForbidden",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "HttpResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "csrf_exempt",
+        "importPath": "django.views.decorators.csrf",
+        "description": "django.views.decorators.csrf",
+        "isExtraImport": true,
+        "detail": "django.views.decorators.csrf",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "Pusher",
+        "importPath": "pusher",
+        "description": "pusher",
+        "isExtraImport": true,
+        "detail": "pusher",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "django.contrib.auth.models",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "Group",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "Group",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "AbstractUser",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "Group",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "ElectricianSignUpForm",
+        "importPath": "userauth.forms",
+        "description": "userauth.forms",
+        "isExtraImport": true,
+        "detail": "userauth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "CustomerSignUpForm",
+        "importPath": "userauth.forms",
+        "description": "userauth.forms",
+        "isExtraImport": true,
+        "detail": "userauth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "UpdatePicture",
+        "importPath": "userauth.forms",
+        "description": "userauth.forms",
+        "isExtraImport": true,
+        "detail": "userauth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "UpdateBusinessInfo",
+        "importPath": "userauth.forms",
+        "description": "userauth.forms",
+        "isExtraImport": true,
+        "detail": "userauth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "UpdateLocation",
+        "importPath": "userauth.forms",
+        "description": "userauth.forms",
+        "isExtraImport": true,
+        "detail": "userauth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "UpdatePrices",
+        "importPath": "userauth.forms",
+        "description": "userauth.forms",
+        "isExtraImport": true,
+        "detail": "userauth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "UpdateQualification",
+        "importPath": "userauth.forms",
+        "description": "userauth.forms",
+        "isExtraImport": true,
+        "detail": "userauth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "UserUpdateForm",
+        "importPath": "userauth.forms",
+        "description": "userauth.forms",
+        "isExtraImport": true,
+        "detail": "userauth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "UpdateCustomerLocation",
+        "importPath": "userauth.forms",
+        "description": "userauth.forms",
+        "isExtraImport": true,
+        "detail": "userauth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "dj_database_url",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "dj_database_url",
+        "description": "dj_database_url",
+        "detail": "dj_database_url",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "static",
+        "importPath": "django.conf.urls.static",
+        "description": "django.conf.urls.static",
+        "isExtraImport": true,
+        "detail": "django.conf.urls.static",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "django.contrib.auth.validators",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.contrib.auth.validators",
+        "description": "django.contrib.auth.validators",
+        "detail": "django.contrib.auth.validators",
+        "documentation": {}
+    },
+    {
+        "label": "django.utils.timezone",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.utils.timezone",
+        "description": "django.utils.timezone",
+        "detail": "django.utils.timezone",
+        "documentation": {}
+    },
+    {
+        "label": "UserAdmin",
+        "importPath": "django.contrib.auth.admin",
+        "description": "django.contrib.auth.admin",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.admin",
+        "documentation": {}
+    },
+    {
+        "label": "forms",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "UserCreationForm",
+        "importPath": "django.contrib.auth.forms",
+        "description": "django.contrib.auth.forms",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "PasswordResetForm",
+        "importPath": "django.contrib.auth.forms",
+        "description": "django.contrib.auth.forms",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "SetPasswordForm",
+        "importPath": "django.contrib.auth.forms",
+        "description": "django.contrib.auth.forms",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "authenticate",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "logout",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "update_session_auth_hash",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "send_mail",
+        "importPath": "django.core.mail",
+        "description": "django.core.mail",
+        "isExtraImport": true,
+        "detail": "django.core.mail",
+        "documentation": {}
+    },
+    {
+        "label": "urlsafe_base64_encode",
+        "importPath": "django.utils.http",
+        "description": "django.utils.http",
+        "isExtraImport": true,
+        "detail": "django.utils.http",
+        "documentation": {}
+    },
+    {
+        "label": "urlsafe_base64_decode",
+        "importPath": "django.utils.http",
+        "description": "django.utils.http",
+        "isExtraImport": true,
+        "detail": "django.utils.http",
+        "documentation": {}
+    },
+    {
+        "label": "force_bytes",
+        "importPath": "django.utils.encoding",
+        "description": "django.utils.encoding",
+        "isExtraImport": true,
+        "detail": "django.utils.encoding",
+        "documentation": {}
+    },
+    {
+        "label": "force_str",
+        "importPath": "django.utils.encoding",
+        "description": "django.utils.encoding",
+        "isExtraImport": true,
+        "detail": "django.utils.encoding",
+        "documentation": {}
+    },
+    {
+        "label": "render_to_string",
+        "importPath": "django.template.loader",
+        "description": "django.template.loader",
+        "isExtraImport": true,
+        "detail": "django.template.loader",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_site",
+        "importPath": "django.contrib.sites.shortcuts",
+        "description": "django.contrib.sites.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.contrib.sites.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "default_token_generator",
+        "importPath": "django.contrib.auth.tokens",
+        "description": "django.contrib.auth.tokens",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.tokens",
+        "documentation": {}
+    },
+    {
+        "label": "check_password",
+        "importPath": "django.contrib.auth.hashers",
+        "description": "django.contrib.auth.hashers",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.hashers",
+        "documentation": {}
+    },
+    {
+        "label": "PasswordResetView",
+        "importPath": "django.contrib.auth.views",
+        "description": "django.contrib.auth.views",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.views",
+        "documentation": {}
+    },
+    {
+        "label": "PasswordResetDoneView",
+        "importPath": "django.contrib.auth.views",
+        "description": "django.contrib.auth.views",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.views",
+        "documentation": {}
+    },
+    {
+        "label": "PasswordResetConfirmView",
+        "importPath": "django.contrib.auth.views",
+        "description": "django.contrib.auth.views",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.views",
+        "documentation": {}
+    },
+    {
+        "label": "PasswordResetCompleteView",
+        "importPath": "django.contrib.auth.views",
+        "description": "django.contrib.auth.views",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.views",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "chatapp.migrations.0001_initial",
+        "description": "chatapp.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Conversation',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),",
+        "detail": "chatapp.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "ChatappConfig",
+        "kind": 6,
+        "importPath": "chatapp.apps",
+        "description": "chatapp.apps",
+        "peekOfCode": "class ChatappConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'chatapp'",
+        "detail": "chatapp.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Conversation",
+        "kind": 6,
+        "importPath": "chatapp.models",
+        "description": "chatapp.models",
+        "peekOfCode": "class Conversation(models.Model):\n    participants = models.ManyToManyField(User, related_name='conversations')\n    conversation_id = models.CharField(max_length=100, default=generate_random_conversation_id, unique=True)\n    def save(self, *args, **kwargs):\n        if not self.conversation_id:\n            # Generate a new conversation ID based on participant IDs if not provided\n            participant_ids = sorted([str(participant.id) for participant in self.participants.all()])\n            concatenated_ids = '-'.join(participant_ids)\n            self.conversation_id = hashlib.sha256(concatenated_ids.encode()).hexdigest()\n        super().save(*args, **kwargs)        ",
+        "detail": "chatapp.models",
+        "documentation": {}
+    },
+    {
+        "label": "Message",
+        "kind": 6,
+        "importPath": "chatapp.models",
+        "description": "chatapp.models",
+        "peekOfCode": "class Message(models.Model):\n    sender = models.ForeignKey(User, on_delete=models.CASCADE)\n    content = models.TextField()\n    conversation = models.ForeignKey(Conversation, on_delete=models.CASCADE, related_name='messages')\n    timestamp = models.DateTimeField(auto_now_add=True)",
+        "detail": "chatapp.models",
+        "documentation": {}
+    },
+    {
+        "label": "generate_random_conversation_id",
+        "kind": 2,
+        "importPath": "chatapp.models",
+        "description": "chatapp.models",
+        "peekOfCode": "def generate_random_conversation_id():\n    from .models import Conversation  # Importing Conversation model here\n    while True:\n        random_id = get_random_string(10)  # Adjust the length as needed\n        if not Conversation.objects.filter(conversation_id=random_id).exists():\n            return random_id\nclass Conversation(models.Model):\n    participants = models.ManyToManyField(User, related_name='conversations')\n    conversation_id = models.CharField(max_length=100, default=generate_random_conversation_id, unique=True)\n    def save(self, *args, **kwargs):",
+        "detail": "chatapp.models",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "chatapp.urls",
+        "description": "chatapp.urls",
+        "peekOfCode": "urlpatterns = [\n    path('<str:username>/', views.chat, name='chat'),\n    path('chat/send/', views.send, name='send'),\n    path('messages/ ', views.my_messages, name='messages'),\n    path('chat/conversation/<str:conversation_id>/', views.chat_conversation, name='chat_conversation'),\n]",
+        "detail": "chatapp.urls",
+        "documentation": {}
+    },
+    {
+        "label": "chat",
+        "kind": 2,
+        "importPath": "chatapp.views",
+        "description": "chatapp.views",
+        "peekOfCode": "def chat(request, username):\n    other_user = get_object_or_404(User, username=username)\n    conversation = Conversation.objects.filter(participants=request.user).filter(participants=other_user).first()\n    if not conversation:\n        conversation = Conversation.objects.create()\n        conversation.participants.set([request.user, other_user])\n    return render_conversation(request, conversation)\n@login_required\ndef chat_conversation(request, conversation_id):\n    conversation = get_object_or_404(Conversation, conversation_id=conversation_id)",
+        "detail": "chatapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "chat_conversation",
+        "kind": 2,
+        "importPath": "chatapp.views",
+        "description": "chatapp.views",
+        "peekOfCode": "def chat_conversation(request, conversation_id):\n    conversation = get_object_or_404(Conversation, conversation_id=conversation_id)\n    if request.user not in conversation.participants.all():\n        return HttpResponseForbidden(\"You are not a participant of this conversation.\")\n    return render_conversation(request, conversation)\ndef render_conversation(request, conversation):\n    messages = conversation.messages.all()\n    other_user = conversation.participants.exclude(id=request.user.id).first()\n    context = {\n        'conversation': conversation, ",
+        "detail": "chatapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "render_conversation",
+        "kind": 2,
+        "importPath": "chatapp.views",
+        "description": "chatapp.views",
+        "peekOfCode": "def render_conversation(request, conversation):\n    messages = conversation.messages.all()\n    other_user = conversation.participants.exclude(id=request.user.id).first()\n    context = {\n        'conversation': conversation, \n        'messages': messages, \n        'other_user': other_user\n    }\n    return render(request, 'chat.html', context)\n@csrf_exempt",
+        "detail": "chatapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "send",
+        "kind": 2,
+        "importPath": "chatapp.views",
+        "description": "chatapp.views",
+        "peekOfCode": "def send(request):\n    if request.method == 'POST':\n        try:\n            data = json.loads(request.body)\n            content = data.get('content')\n            conversation_id = data.get('conversation_id')\n            sender = request.user\n            conversation = get_object_or_404(Conversation, conversation_id=conversation_id)\n            message = Message.objects.create(sender=sender, content=content, conversation=conversation)\n            pusher.trigger('new-channel', 'new-message', {",
+        "detail": "chatapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "my_messages",
+        "kind": 2,
+        "importPath": "chatapp.views",
+        "description": "chatapp.views",
+        "peekOfCode": "def my_messages(request):\n    user = request.user\n    conversations = Conversation.objects.filter(participants=user)\n    conversations_with_participants = []\n    for conversation in conversations:\n        other_user = conversation.participants.exclude(id=request.user.id).first()\n        conversations_with_participants.append((conversation, other_user))\n    context = {\n        'conversations_with_participants': conversations_with_participants\n    }",
+        "detail": "chatapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "pusher",
+        "kind": 5,
+        "importPath": "chatapp.views",
+        "description": "chatapp.views",
+        "peekOfCode": "pusher = Pusher(\n    app_id=settings.PUSHER_APP_ID,\n    key=settings.PUSHER_KEY,\n    secret=settings.PUSHER_SECRET,\n    cluster=settings.PUSHER_CLUSTER,\n    ssl=True\n)\nlogger = logging.getLogger(__name__)\n@login_required\ndef chat(request, username):",
+        "detail": "chatapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "chatapp.views",
+        "description": "chatapp.views",
+        "peekOfCode": "logger = logging.getLogger(__name__)\n@login_required\ndef chat(request, username):\n    other_user = get_object_or_404(User, username=username)\n    conversation = Conversation.objects.filter(participants=request.user).filter(participants=other_user).first()\n    if not conversation:\n        conversation = Conversation.objects.create()\n        conversation.participants.set([request.user, other_user])\n    return render_conversation(request, conversation)\n@login_required",
+        "detail": "chatapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "OjmCoreConfig",
+        "kind": 6,
+        "importPath": "ojm_core.apps",
+        "description": "ojm_core.apps",
+        "peekOfCode": "class OjmCoreConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'ojm_core'",
+        "detail": "ojm_core.apps",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "ojm_core.urls",
+        "description": "ojm_core.urls",
+        "peekOfCode": "urlpatterns = [\n    path('', views.index, name=\"index\"),\n    path('dashboard',views.dashboard,name=\"dashboard\"),\n    path('user-dashboard',views.user_dashboard,name=\"user_dashboard\"),\n    path('prof-dashboard',views.prof_dashboard,name=\"prof_dashboard\"),\n    path('all',views.all_users,name=\"all\"),\n    path('single/<int:pk>',views.single_user,name=\"single\"),\n    path('search',views.search_view,name=\"search\")\n]",
+        "detail": "ojm_core.urls",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 2,
+        "importPath": "ojm_core.views",
+        "description": "ojm_core.views",
+        "peekOfCode": "def index(request):\n    return render(request, 'index.html')\ndef dashboard(request):\n    if request.user.groups.filter(name='customers').exists():\n        return redirect('ojm_core:user_dashboard')\n    elif request.user.groups.filter(name='electricians').exists():\n        return redirect('ojm_core:prof_dashboard')\n@login_required\ndef user_dashboard(request):\n    profile = get_object_or_404(CustomerProfile, user=request.user)",
+        "detail": "ojm_core.views",
+        "documentation": {}
+    },
+    {
+        "label": "dashboard",
+        "kind": 2,
+        "importPath": "ojm_core.views",
+        "description": "ojm_core.views",
+        "peekOfCode": "def dashboard(request):\n    if request.user.groups.filter(name='customers').exists():\n        return redirect('ojm_core:user_dashboard')\n    elif request.user.groups.filter(name='electricians').exists():\n        return redirect('ojm_core:prof_dashboard')\n@login_required\ndef user_dashboard(request):\n    profile = get_object_or_404(CustomerProfile, user=request.user)\n    user = request.user\n    form = UserUpdateForm(instance=user)",
+        "detail": "ojm_core.views",
+        "documentation": {}
+    },
+    {
+        "label": "user_dashboard",
+        "kind": 2,
+        "importPath": "ojm_core.views",
+        "description": "ojm_core.views",
+        "peekOfCode": "def user_dashboard(request):\n    profile = get_object_or_404(CustomerProfile, user=request.user)\n    user = request.user\n    form = UserUpdateForm(instance=user)\n    location_form = UpdateCustomerLocation(instance=profile)\n    context = {\n        'profile': profile,\n        'location_form':location_form,\n        'form':form,\n    }",
+        "detail": "ojm_core.views",
+        "documentation": {}
+    },
+    {
+        "label": "prof_dashboard",
+        "kind": 2,
+        "importPath": "ojm_core.views",
+        "description": "ojm_core.views",
+        "peekOfCode": "def prof_dashboard(request):\n    profile = get_object_or_404(ElectricianProfile, user=request.user)\n    user = request.user\n    profile_pic_form = UpdatePicture(instance=profile)\n    business_form = UpdateBusinessInfo(instance=profile)\n    location_form = UpdateLocation(instance=profile)\n    prices_form = UpdatePrices(instance=profile)\n    qualification_form = UpdateQualification(instance=profile)\n    form = UserUpdateForm(instance=user)\n    context = {",
+        "detail": "ojm_core.views",
+        "documentation": {}
+    },
+    {
+        "label": "all_users",
+        "kind": 2,
+        "importPath": "ojm_core.views",
+        "description": "ojm_core.views",
+        "peekOfCode": "def all_users(request):\n    users = User.objects.all()\n    context = {\n        'users':users\n    }\n    return render(request,'users.html',context)\ndef single_user(request, pk):\n    user = get_object_or_404(User,pk=pk)\n    context = {\n        'user':user",
+        "detail": "ojm_core.views",
+        "documentation": {}
+    },
+    {
+        "label": "single_user",
+        "kind": 2,
+        "importPath": "ojm_core.views",
+        "description": "ojm_core.views",
+        "peekOfCode": "def single_user(request, pk):\n    user = get_object_or_404(User,pk=pk)\n    context = {\n        'user':user\n    }\n    return render(request,'user.html',context)\ndef search_view(request):\n    query = request.GET.get('query', '')\n    context = {\n        'query': query,",
+        "detail": "ojm_core.views",
+        "documentation": {}
+    },
+    {
+        "label": "search_view",
+        "kind": 2,
+        "importPath": "ojm_core.views",
+        "description": "ojm_core.views",
+        "peekOfCode": "def search_view(request):\n    query = request.GET.get('query', '')\n    context = {\n        'query': query,\n    }\n    if query:\n        if request.user.is_authenticated:\n            return render(request, 'flow1.html', context)\n        else:\n            return render(request, 'flow.html', context)",
+        "detail": "ojm_core.views",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "ojm_script.asgi",
+        "description": "ojm_script.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "ojm_script.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "ojm_script.settings",
+        "description": "ojm_script.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = os.getenv('SECRET_KEY')\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = os.getenv('DEBUG', 'False') == 'True'\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [",
+        "detail": "ojm_script.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "ojm_script.settings",
+        "description": "ojm_script.settings",
+        "peekOfCode": "SECRET_KEY = os.getenv('SECRET_KEY')\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = os.getenv('DEBUG', 'False') == 'True'\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "detail": "ojm_script.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "ojm_script.settings",
+        "description": "ojm_script.settings",
+        "peekOfCode": "DEBUG = os.getenv('DEBUG', 'False') == 'True'\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "detail": "ojm_script.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "ojm_script.settings",
+        "description": "ojm_script.settings",
+        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'ojm_core',",
+        "detail": "ojm_script.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "ojm_script.settings",
+        "description": "ojm_script.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'ojm_core',\n    'userauth',\n    'chatapp',",
+        "detail": "ojm_script.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "ojm_script.settings",
+        "description": "ojm_script.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'whitenoise.middleware.WhiteNoiseMiddleware', \n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]",
+        "detail": "ojm_script.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "ojm_script.settings",
+        "description": "ojm_script.settings",
+        "peekOfCode": "ROOT_URLCONF = 'ojm_script.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [os.path.join(BASE_DIR, 'templates')],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "detail": "ojm_script.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "ojm_script.settings",
+        "description": "ojm_script.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [os.path.join(BASE_DIR, 'templates')],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "ojm_script.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "ojm_script.settings",
+        "description": "ojm_script.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'ojm_script.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/5.0/ref/settings/#databases\n# DATABASES = {\n#     'default': {\n#         'ENGINE': 'django.db.backends.sqlite3',\n#         'NAME': BASE_DIR / 'db.sqlite3',\n#     }\n# }\nDATABASES = {",
+        "detail": "ojm_script.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "ojm_script.settings",
+        "description": "ojm_script.settings",
+        "peekOfCode": "DATABASES = {\n    'default': dj_database_url.config(default=os.getenv('DATABASE_URL'))\n}\n# Password validation\n# https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {",
+        "detail": "ojm_script.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "ojm_script.settings",
+        "description": "ojm_script.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "ojm_script.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "ojm_script.settings",
+        "description": "ojm_script.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'Africa/Lagos'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]\nif not DEBUG:    \n    STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')",
+        "detail": "ojm_script.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "ojm_script.settings",
+        "description": "ojm_script.settings",
+        "peekOfCode": "TIME_ZONE = 'Africa/Lagos'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]\nif not DEBUG:    \n    STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\n    STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'",
+        "detail": "ojm_script.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "ojm_script.settings",
+        "description": "ojm_script.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]\nif not DEBUG:    \n    STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\n    STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'\n# Media files (Uploaded files)",
+        "detail": "ojm_script.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "ojm_script.settings",
+        "description": "ojm_script.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]\nif not DEBUG:    \n    STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\n    STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'\n# Media files (Uploaded files)\nMEDIA_URL = '/media/'",
+        "detail": "ojm_script.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "ojm_script.settings",
+        "description": "ojm_script.settings",
+        "peekOfCode": "STATIC_URL = '/static/'\nSTATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]\nif not DEBUG:    \n    STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\n    STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'\n# Media files (Uploaded files)\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field",
+        "detail": "ojm_script.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATICFILES_DIRS",
+        "kind": 5,
+        "importPath": "ojm_script.settings",
+        "description": "ojm_script.settings",
+        "peekOfCode": "STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]\nif not DEBUG:    \n    STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\n    STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'\n# Media files (Uploaded files)\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "ojm_script.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MEDIA_URL",
+        "kind": 5,
+        "importPath": "ojm_script.settings",
+        "description": "ojm_script.settings",
+        "peekOfCode": "MEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = 465  \nEMAIL_USE_TLS = False\nEMAIL_USE_SSL = True",
+        "detail": "ojm_script.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MEDIA_ROOT",
+        "kind": 5,
+        "importPath": "ojm_script.settings",
+        "description": "ojm_script.settings",
+        "peekOfCode": "MEDIA_ROOT = os.path.join(BASE_DIR, 'media')\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = 465  \nEMAIL_USE_TLS = False\nEMAIL_USE_SSL = True\nEMAIL_HOST_USER = os.getenv('EMAIL_HOST_USER')",
+        "detail": "ojm_script.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "ojm_script.settings",
+        "description": "ojm_script.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = 465  \nEMAIL_USE_TLS = False\nEMAIL_USE_SSL = True\nEMAIL_HOST_USER = os.getenv('EMAIL_HOST_USER')\nEMAIL_HOST_PASSWORD = os.getenv('EMAIL_HOST_PASSWORD')\nLOGIN_URL = 'userauth:login'\nPUSHER_APP_ID = os.getenv('PUSHER_APP_ID')",
+        "detail": "ojm_script.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_BACKEND",
+        "kind": 5,
+        "importPath": "ojm_script.settings",
+        "description": "ojm_script.settings",
+        "peekOfCode": "EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = 465  \nEMAIL_USE_TLS = False\nEMAIL_USE_SSL = True\nEMAIL_HOST_USER = os.getenv('EMAIL_HOST_USER')\nEMAIL_HOST_PASSWORD = os.getenv('EMAIL_HOST_PASSWORD')\nLOGIN_URL = 'userauth:login'\nPUSHER_APP_ID = os.getenv('PUSHER_APP_ID')\nPUSHER_KEY = os.getenv('PUSHER_KEY')",
+        "detail": "ojm_script.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_HOST",
+        "kind": 5,
+        "importPath": "ojm_script.settings",
+        "description": "ojm_script.settings",
+        "peekOfCode": "EMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = 465  \nEMAIL_USE_TLS = False\nEMAIL_USE_SSL = True\nEMAIL_HOST_USER = os.getenv('EMAIL_HOST_USER')\nEMAIL_HOST_PASSWORD = os.getenv('EMAIL_HOST_PASSWORD')\nLOGIN_URL = 'userauth:login'\nPUSHER_APP_ID = os.getenv('PUSHER_APP_ID')\nPUSHER_KEY = os.getenv('PUSHER_KEY')\nPUSHER_SECRET = os.getenv('PUSHER_SECRET')",
+        "detail": "ojm_script.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_PORT",
+        "kind": 5,
+        "importPath": "ojm_script.settings",
+        "description": "ojm_script.settings",
+        "peekOfCode": "EMAIL_PORT = 465  \nEMAIL_USE_TLS = False\nEMAIL_USE_SSL = True\nEMAIL_HOST_USER = os.getenv('EMAIL_HOST_USER')\nEMAIL_HOST_PASSWORD = os.getenv('EMAIL_HOST_PASSWORD')\nLOGIN_URL = 'userauth:login'\nPUSHER_APP_ID = os.getenv('PUSHER_APP_ID')\nPUSHER_KEY = os.getenv('PUSHER_KEY')\nPUSHER_SECRET = os.getenv('PUSHER_SECRET')\nPUSHER_CLUSTER = os.getenv('PUSHER_CLUSTER')",
+        "detail": "ojm_script.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_USE_TLS",
+        "kind": 5,
+        "importPath": "ojm_script.settings",
+        "description": "ojm_script.settings",
+        "peekOfCode": "EMAIL_USE_TLS = False\nEMAIL_USE_SSL = True\nEMAIL_HOST_USER = os.getenv('EMAIL_HOST_USER')\nEMAIL_HOST_PASSWORD = os.getenv('EMAIL_HOST_PASSWORD')\nLOGIN_URL = 'userauth:login'\nPUSHER_APP_ID = os.getenv('PUSHER_APP_ID')\nPUSHER_KEY = os.getenv('PUSHER_KEY')\nPUSHER_SECRET = os.getenv('PUSHER_SECRET')\nPUSHER_CLUSTER = os.getenv('PUSHER_CLUSTER')\nSSL = os.getenv('SSL', 'False') == 'True'",
+        "detail": "ojm_script.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_USE_SSL",
+        "kind": 5,
+        "importPath": "ojm_script.settings",
+        "description": "ojm_script.settings",
+        "peekOfCode": "EMAIL_USE_SSL = True\nEMAIL_HOST_USER = os.getenv('EMAIL_HOST_USER')\nEMAIL_HOST_PASSWORD = os.getenv('EMAIL_HOST_PASSWORD')\nLOGIN_URL = 'userauth:login'\nPUSHER_APP_ID = os.getenv('PUSHER_APP_ID')\nPUSHER_KEY = os.getenv('PUSHER_KEY')\nPUSHER_SECRET = os.getenv('PUSHER_SECRET')\nPUSHER_CLUSTER = os.getenv('PUSHER_CLUSTER')\nSSL = os.getenv('SSL', 'False') == 'True'\nAUTH_USER_MODEL = 'userauth.User'",
+        "detail": "ojm_script.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_HOST_USER",
+        "kind": 5,
+        "importPath": "ojm_script.settings",
+        "description": "ojm_script.settings",
+        "peekOfCode": "EMAIL_HOST_USER = os.getenv('EMAIL_HOST_USER')\nEMAIL_HOST_PASSWORD = os.getenv('EMAIL_HOST_PASSWORD')\nLOGIN_URL = 'userauth:login'\nPUSHER_APP_ID = os.getenv('PUSHER_APP_ID')\nPUSHER_KEY = os.getenv('PUSHER_KEY')\nPUSHER_SECRET = os.getenv('PUSHER_SECRET')\nPUSHER_CLUSTER = os.getenv('PUSHER_CLUSTER')\nSSL = os.getenv('SSL', 'False') == 'True'\nAUTH_USER_MODEL = 'userauth.User'",
+        "detail": "ojm_script.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_HOST_PASSWORD",
+        "kind": 5,
+        "importPath": "ojm_script.settings",
+        "description": "ojm_script.settings",
+        "peekOfCode": "EMAIL_HOST_PASSWORD = os.getenv('EMAIL_HOST_PASSWORD')\nLOGIN_URL = 'userauth:login'\nPUSHER_APP_ID = os.getenv('PUSHER_APP_ID')\nPUSHER_KEY = os.getenv('PUSHER_KEY')\nPUSHER_SECRET = os.getenv('PUSHER_SECRET')\nPUSHER_CLUSTER = os.getenv('PUSHER_CLUSTER')\nSSL = os.getenv('SSL', 'False') == 'True'\nAUTH_USER_MODEL = 'userauth.User'",
+        "detail": "ojm_script.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LOGIN_URL",
+        "kind": 5,
+        "importPath": "ojm_script.settings",
+        "description": "ojm_script.settings",
+        "peekOfCode": "LOGIN_URL = 'userauth:login'\nPUSHER_APP_ID = os.getenv('PUSHER_APP_ID')\nPUSHER_KEY = os.getenv('PUSHER_KEY')\nPUSHER_SECRET = os.getenv('PUSHER_SECRET')\nPUSHER_CLUSTER = os.getenv('PUSHER_CLUSTER')\nSSL = os.getenv('SSL', 'False') == 'True'\nAUTH_USER_MODEL = 'userauth.User'",
+        "detail": "ojm_script.settings",
+        "documentation": {}
+    },
+    {
+        "label": "PUSHER_APP_ID",
+        "kind": 5,
+        "importPath": "ojm_script.settings",
+        "description": "ojm_script.settings",
+        "peekOfCode": "PUSHER_APP_ID = os.getenv('PUSHER_APP_ID')\nPUSHER_KEY = os.getenv('PUSHER_KEY')\nPUSHER_SECRET = os.getenv('PUSHER_SECRET')\nPUSHER_CLUSTER = os.getenv('PUSHER_CLUSTER')\nSSL = os.getenv('SSL', 'False') == 'True'\nAUTH_USER_MODEL = 'userauth.User'",
+        "detail": "ojm_script.settings",
+        "documentation": {}
+    },
+    {
+        "label": "PUSHER_KEY",
+        "kind": 5,
+        "importPath": "ojm_script.settings",
+        "description": "ojm_script.settings",
+        "peekOfCode": "PUSHER_KEY = os.getenv('PUSHER_KEY')\nPUSHER_SECRET = os.getenv('PUSHER_SECRET')\nPUSHER_CLUSTER = os.getenv('PUSHER_CLUSTER')\nSSL = os.getenv('SSL', 'False') == 'True'\nAUTH_USER_MODEL = 'userauth.User'",
+        "detail": "ojm_script.settings",
+        "documentation": {}
+    },
+    {
+        "label": "PUSHER_SECRET",
+        "kind": 5,
+        "importPath": "ojm_script.settings",
+        "description": "ojm_script.settings",
+        "peekOfCode": "PUSHER_SECRET = os.getenv('PUSHER_SECRET')\nPUSHER_CLUSTER = os.getenv('PUSHER_CLUSTER')\nSSL = os.getenv('SSL', 'False') == 'True'\nAUTH_USER_MODEL = 'userauth.User'",
+        "detail": "ojm_script.settings",
+        "documentation": {}
+    },
+    {
+        "label": "PUSHER_CLUSTER",
+        "kind": 5,
+        "importPath": "ojm_script.settings",
+        "description": "ojm_script.settings",
+        "peekOfCode": "PUSHER_CLUSTER = os.getenv('PUSHER_CLUSTER')\nSSL = os.getenv('SSL', 'False') == 'True'\nAUTH_USER_MODEL = 'userauth.User'",
+        "detail": "ojm_script.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SSL",
+        "kind": 5,
+        "importPath": "ojm_script.settings",
+        "description": "ojm_script.settings",
+        "peekOfCode": "SSL = os.getenv('SSL', 'False') == 'True'\nAUTH_USER_MODEL = 'userauth.User'",
+        "detail": "ojm_script.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_USER_MODEL",
+        "kind": 5,
+        "importPath": "ojm_script.settings",
+        "description": "ojm_script.settings",
+        "peekOfCode": "AUTH_USER_MODEL = 'userauth.User'",
+        "detail": "ojm_script.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "ojm_script.urls",
+        "description": "ojm_script.urls",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('', include('ojm_core.urls',namespace=\"ojm_core\")),\n    path('user/', include('userauth.urls',namespace=\"userauth\")),\n    path('chat/', include('chatapp.urls',namespace=\"chatapp\")),\n    path('accounts/', include('django.contrib.auth.urls')), \n]\nurlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)\nurlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)",
+        "detail": "ojm_script.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "ojm_script.wsgi",
+        "description": "ojm_script.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "ojm_script.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "userauth.migrations.0001_initial",
+        "description": "userauth.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        ('auth', '0012_alter_user_first_name_max_length'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='User',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),",
+        "detail": "userauth.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "userauth.migrations.0002_alter_user_phone_number_alter_user_whatsapp_number_and_more",
+        "description": "userauth.migrations.0002_alter_user_phone_number_alter_user_whatsapp_number_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('userauth', '0001_initial'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='user',\n            name='phone_number',\n            field=models.CharField(blank=True, max_length=25),\n        ),",
+        "detail": "userauth.migrations.0002_alter_user_phone_number_alter_user_whatsapp_number_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "userauth.migrations.0003_customerprofile",
+        "description": "userauth.migrations.0003_customerprofile",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('userauth', '0002_alter_user_phone_number_alter_user_whatsapp_number_and_more'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='CustomerProfile',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('profile_picture', models.ImageField(blank=True, null=True, upload_to=userauth.models.user_directory_path)),",
+        "detail": "userauth.migrations.0003_customerprofile",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "userauth.migrations.0004_alter_customerprofile_options_and_more",
+        "description": "userauth.migrations.0004_alter_customerprofile_options_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('userauth', '0003_customerprofile'),\n    ]\n    operations = [\n        migrations.AlterModelOptions(\n            name='customerprofile',\n            options={'verbose_name_plural': 'Customers'},\n        ),\n        migrations.AlterModelOptions(",
+        "detail": "userauth.migrations.0004_alter_customerprofile_options_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "userauth.migrations.0005_alter_customerprofile_state_and_more",
+        "description": "userauth.migrations.0005_alter_customerprofile_state_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('userauth', '0004_alter_customerprofile_options_and_more'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='customerprofile',\n            name='state',\n            field=models.CharField(choices=[('abia', 'Abia'), ('adamawa', 'Adamawa'), ('akwa-ibom', 'Akwa Ibom'), ('anambra', 'Anambra'), ('bauchi', 'Bauchi'), ('bayelsa', 'Bayelsa'), ('benue', 'Benue'), ('borno', 'Borno'), ('cross-river', 'Cross River'), ('delta', 'Delta'), ('ebonyi', 'Ebonyi'), ('edo', 'Edo'), ('ekiti', 'Ekiti'), ('enugu', 'Enugu'), ('gombe', 'Gombe'), ('imo', 'Imo'), ('jigawa', 'Jigawa'), ('kaduna', 'Kaduna'), ('kano', 'Kano'), ('katsina', 'Katsina'), ('kebbi', 'Kebbi'), ('kogi', 'Kogi'), ('kwara', 'Kwara'), ('lagos', 'Lagos'), ('nasarawa', 'Nasarawa'), ('niger', 'Niger'), ('ogun', 'Ogun'), ('ondo', 'Ondo'), ('osun', 'Osun'), ('oyo', 'Oyo'), ('plateau', 'Plateau'), ('rivers', 'Rivers'), ('sokoto', 'Sokoto'), ('taraba', 'Taraba'), ('yobe', 'Yobe'), ('zamfara', 'Zamfara'), ('fct', 'Federal Capital Territory (FCT)'), ('none', 'Not a Nigerian')], max_length=50),\n        ),",
+        "detail": "userauth.migrations.0005_alter_customerprofile_state_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "ElectricianProfileAdmin",
+        "kind": 6,
+        "importPath": "userauth.admin",
+        "description": "userauth.admin",
+        "peekOfCode": "class ElectricianProfileAdmin(admin.ModelAdmin):\n    list_display = ('user', 'business_name', 'country', 'state', 'city')\nclass CustomerProfileAdmin(admin.ModelAdmin):\n    list_display = ('user', 'country', 'state', 'city')\nclass CustomUserAdmin(UserAdmin):\n    # Define the list filters\n    list_filter = ('is_active', 'groups')\n    search_fields = ('username',)\n    list_display = ('username', 'email', 'first_name', 'last_name', 'is_active', 'is_staff')\nadmin.site.register(ElectricianProfile, ElectricianProfileAdmin)",
+        "detail": "userauth.admin",
+        "documentation": {}
+    },
+    {
+        "label": "CustomerProfileAdmin",
+        "kind": 6,
+        "importPath": "userauth.admin",
+        "description": "userauth.admin",
+        "peekOfCode": "class CustomerProfileAdmin(admin.ModelAdmin):\n    list_display = ('user', 'country', 'state', 'city')\nclass CustomUserAdmin(UserAdmin):\n    # Define the list filters\n    list_filter = ('is_active', 'groups')\n    search_fields = ('username',)\n    list_display = ('username', 'email', 'first_name', 'last_name', 'is_active', 'is_staff')\nadmin.site.register(ElectricianProfile, ElectricianProfileAdmin)\nadmin.site.register(CustomerProfile, CustomerProfileAdmin)\nadmin.site.register(User, CustomUserAdmin)",
+        "detail": "userauth.admin",
+        "documentation": {}
+    },
+    {
+        "label": "CustomUserAdmin",
+        "kind": 6,
+        "importPath": "userauth.admin",
+        "description": "userauth.admin",
+        "peekOfCode": "class CustomUserAdmin(UserAdmin):\n    # Define the list filters\n    list_filter = ('is_active', 'groups')\n    search_fields = ('username',)\n    list_display = ('username', 'email', 'first_name', 'last_name', 'is_active', 'is_staff')\nadmin.site.register(ElectricianProfile, ElectricianProfileAdmin)\nadmin.site.register(CustomerProfile, CustomerProfileAdmin)\nadmin.site.register(User, CustomUserAdmin)",
+        "detail": "userauth.admin",
+        "documentation": {}
+    },
+    {
+        "label": "UserauthConfig",
+        "kind": 6,
+        "importPath": "userauth.apps",
+        "description": "userauth.apps",
+        "peekOfCode": "class UserauthConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'userauth'",
+        "detail": "userauth.apps",
+        "documentation": {}
+    },
+    {
+        "label": "ElectricianSignUpForm",
+        "kind": 6,
+        "importPath": "userauth.forms",
+        "description": "userauth.forms",
+        "peekOfCode": "class ElectricianSignUpForm(UserCreationForm):\n    password1 = forms.CharField(required=True,widget=forms.PasswordInput(attrs={'placeholder': 'Enter password', 'id': 'password'}))\n    password2 = forms.CharField(required=True,widget=forms.PasswordInput(attrs={'placeholder': 'Confirm password', 'id': 'confirmPassword'}))\n    business_name = forms.CharField(max_length=255, label='Business Name',widget=forms.TextInput(attrs={'placeholder': 'Business name', 'id': 'businessName'}))\n    service_description = forms.CharField(widget=forms.Textarea(attrs={'placeholder': 'Business description, tell customers what you do in detail', 'id': 'serviceDescription','rows':4}), label='Service Description')\n    profile_picture = forms.ImageField(required=False, label='Profile Image',widget=forms.FileInput(attrs={'id': 'businessProfilePicture'}))\n    founded_date = forms.DateField(label='Founded Date',widget=forms.DateInput(attrs={'placeholder': 'Founded date', 'type': 'date', 'id': 'foundedDate'}))\n    registered = forms.BooleanField(required=False, label='Registered Business',widget=forms.CheckboxInput(attrs={'id': 'registered'}))\n    country = forms.ChoiceField(choices=WEST_AFRICAN_COUNTRIES, label='Country')\n    state = forms.ChoiceField(choices=NIGERIAN_STATES, label='State')",
+        "detail": "userauth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "CustomerSignUpForm",
+        "kind": 6,
+        "importPath": "userauth.forms",
+        "description": "userauth.forms",
+        "peekOfCode": "class CustomerSignUpForm(UserCreationForm):\n    password1 = forms.CharField(required=True,widget=forms.PasswordInput(attrs={'placeholder': 'Enter password', 'id': 'password'}))\n    password2 = forms.CharField(required=True,widget=forms.PasswordInput(attrs={'placeholder': 'Confirm password', 'id': 'confirmPassword'}))\n    profile_picture = forms.ImageField(required=False, label='Profile Image',widget=forms.FileInput(attrs={'id': 'businessProfilePicture'}))\n    country = forms.ChoiceField(choices=WEST_AFRICAN_COUNTRIES, label='Country')\n    state = forms.ChoiceField(choices=NIGERIAN_STATES, label='State')\n    city = forms.CharField(max_length=255, label='City',widget=forms.TextInput(attrs={'placeholder': 'Enter city', 'id': 'city'}))\n    address = forms.CharField(max_length=255, label='Address',widget=forms.TextInput(attrs={'placeholder': 'Enter address', 'id': 'address'}))\n    terms = forms.BooleanField(required=True, label='I agree to the terms and conditions',widget=forms.CheckboxInput(attrs={'id': 'terms'}))\n    class Meta:",
+        "detail": "userauth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "CustomPasswordResetForm",
+        "kind": 6,
+        "importPath": "userauth.forms",
+        "description": "userauth.forms",
+        "peekOfCode": "class CustomPasswordResetForm(PasswordResetForm):\n    email = forms.EmailField(max_length=254, required=True, widget=forms.EmailInput(attrs={'class': 'form-control','placeholder': 'Enter email-address'}))\nclass CustomSetPasswordForm(SetPasswordForm):\n    new_password1 = forms.CharField(label='New password', widget=forms.PasswordInput(attrs={'class': 'form-control','placeholder': 'Enter New password'}))\n    new_password2 = forms.CharField(label='Confirm new password', widget=forms.PasswordInput(attrs={'class': 'form-control','placeholder': 'Confirm password'}))\nclass UpdateBusinessInfo(forms.ModelForm):\n    business_name = forms.CharField(max_length=255, label='Business Name',widget=forms.TextInput(attrs={'placeholder': '', 'id': 'displayName'}))\n    service_description = forms.CharField(widget=forms.Textarea(attrs={'placeholder': 'Business description, tell customers what you do in detail', 'id': 'serviceDescription','rows':4}), label='Service Description')\n    registered = forms.BooleanField(required=False, label='Registered Business',widget=forms.CheckboxInput(attrs={'id': 'registered'}))\n    founded_date = forms.DateField(label='Founded Date',widget=forms.DateInput(attrs={'placeholder': 'Founded date', 'type': 'date', 'id': 'foundedDate'}))",
+        "detail": "userauth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "CustomSetPasswordForm",
+        "kind": 6,
+        "importPath": "userauth.forms",
+        "description": "userauth.forms",
+        "peekOfCode": "class CustomSetPasswordForm(SetPasswordForm):\n    new_password1 = forms.CharField(label='New password', widget=forms.PasswordInput(attrs={'class': 'form-control','placeholder': 'Enter New password'}))\n    new_password2 = forms.CharField(label='Confirm new password', widget=forms.PasswordInput(attrs={'class': 'form-control','placeholder': 'Confirm password'}))\nclass UpdateBusinessInfo(forms.ModelForm):\n    business_name = forms.CharField(max_length=255, label='Business Name',widget=forms.TextInput(attrs={'placeholder': '', 'id': 'displayName'}))\n    service_description = forms.CharField(widget=forms.Textarea(attrs={'placeholder': 'Business description, tell customers what you do in detail', 'id': 'serviceDescription','rows':4}), label='Service Description')\n    registered = forms.BooleanField(required=False, label='Registered Business',widget=forms.CheckboxInput(attrs={'id': 'registered'}))\n    founded_date = forms.DateField(label='Founded Date',widget=forms.DateInput(attrs={'placeholder': 'Founded date', 'type': 'date', 'id': 'foundedDate'}))\n    class Meta:\n        model = ElectricianProfile",
+        "detail": "userauth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "UpdateBusinessInfo",
+        "kind": 6,
+        "importPath": "userauth.forms",
+        "description": "userauth.forms",
+        "peekOfCode": "class UpdateBusinessInfo(forms.ModelForm):\n    business_name = forms.CharField(max_length=255, label='Business Name',widget=forms.TextInput(attrs={'placeholder': '', 'id': 'displayName'}))\n    service_description = forms.CharField(widget=forms.Textarea(attrs={'placeholder': 'Business description, tell customers what you do in detail', 'id': 'serviceDescription','rows':4}), label='Service Description')\n    registered = forms.BooleanField(required=False, label='Registered Business',widget=forms.CheckboxInput(attrs={'id': 'registered'}))\n    founded_date = forms.DateField(label='Founded Date',widget=forms.DateInput(attrs={'placeholder': 'Founded date', 'type': 'date', 'id': 'foundedDate'}))\n    class Meta:\n        model = ElectricianProfile\n        fields = ['business_name','service_description','registered','founded_date','number_of_employees','website_url','youtube_url']\nclass UpdateLocation(forms.ModelForm):\n    country = forms.ChoiceField(choices=WEST_AFRICAN_COUNTRIES, label='Country')",
+        "detail": "userauth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "UpdateLocation",
+        "kind": 6,
+        "importPath": "userauth.forms",
+        "description": "userauth.forms",
+        "peekOfCode": "class UpdateLocation(forms.ModelForm):\n    country = forms.ChoiceField(choices=WEST_AFRICAN_COUNTRIES, label='Country')\n    state = forms.ChoiceField(choices=NIGERIAN_STATES, label='State')\n    city = forms.CharField(max_length=255, label='City',widget=forms.TextInput(attrs={'placeholder': 'Enter city', 'id': 'city'}))\n    address = forms.CharField(max_length=255, label='Address',widget=forms.TextInput(attrs={'placeholder': 'Enter address', 'id': 'address'}))\n    class Meta:\n        model = ElectricianProfile\n        fields = ['country','state','city','address']\nclass UpdateCustomerLocation(forms.ModelForm):\n    country = forms.ChoiceField(choices=WEST_AFRICAN_COUNTRIES, label='Country')",
+        "detail": "userauth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "UpdateCustomerLocation",
+        "kind": 6,
+        "importPath": "userauth.forms",
+        "description": "userauth.forms",
+        "peekOfCode": "class UpdateCustomerLocation(forms.ModelForm):\n    country = forms.ChoiceField(choices=WEST_AFRICAN_COUNTRIES, label='Country')\n    state = forms.ChoiceField(choices=NIGERIAN_STATES, label='State')\n    city = forms.CharField(max_length=255, label='City',widget=forms.TextInput(attrs={'placeholder': 'Enter city', 'id': 'city'}))\n    address = forms.CharField(max_length=255, label='Address',widget=forms.TextInput(attrs={'placeholder': 'Enter address', 'id': 'address'}))\n    class Meta:\n        model = CustomerProfile\n        fields = ['country','state','city','address']\nclass UpdatePicture(forms.ModelForm):\n    profile_picture = forms.ImageField(required=False, label='',widget=forms.FileInput(attrs={'id': 'fileInput'}))",
+        "detail": "userauth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "UpdatePicture",
+        "kind": 6,
+        "importPath": "userauth.forms",
+        "description": "userauth.forms",
+        "peekOfCode": "class UpdatePicture(forms.ModelForm):\n    profile_picture = forms.ImageField(required=False, label='',widget=forms.FileInput(attrs={'id': 'fileInput'}))\n    class Meta:\n        model = ElectricianProfile \n        fields = ['profile_picture']\nclass UpdateCustomerPicture(forms.ModelForm):\n    profile_picture = forms.ImageField(required=False, label='',widget=forms.FileInput(attrs={'id': 'fileInput'}))\n    class Meta:\n        model = CustomerProfile \n        fields = ['profile_picture']",
+        "detail": "userauth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "UpdateCustomerPicture",
+        "kind": 6,
+        "importPath": "userauth.forms",
+        "description": "userauth.forms",
+        "peekOfCode": "class UpdateCustomerPicture(forms.ModelForm):\n    profile_picture = forms.ImageField(required=False, label='',widget=forms.FileInput(attrs={'id': 'fileInput'}))\n    class Meta:\n        model = CustomerProfile \n        fields = ['profile_picture']\nclass UpdatePrices(forms.ModelForm):\n    prices = forms.CharField(widget=forms.Textarea(attrs={'placeholder': '', 'id': 'prices','rows':4}), label='Prices')\n    class Meta:\n        model = ElectricianProfile\n        fields = ['prices']",
+        "detail": "userauth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "UpdatePrices",
+        "kind": 6,
+        "importPath": "userauth.forms",
+        "description": "userauth.forms",
+        "peekOfCode": "class UpdatePrices(forms.ModelForm):\n    prices = forms.CharField(widget=forms.Textarea(attrs={'placeholder': '', 'id': 'prices','rows':4}), label='Prices')\n    class Meta:\n        model = ElectricianProfile\n        fields = ['prices']\nclass UpdateQualification(forms.ModelForm):\n    qualification = forms.CharField(widget=forms.Textarea(attrs={'placeholder': '', 'id': 'qualification','rows':4}), label='Prices')\n    class Meta:\n        model = ElectricianProfile\n        fields = ['qualification']",
+        "detail": "userauth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "UpdateQualification",
+        "kind": 6,
+        "importPath": "userauth.forms",
+        "description": "userauth.forms",
+        "peekOfCode": "class UpdateQualification(forms.ModelForm):\n    qualification = forms.CharField(widget=forms.Textarea(attrs={'placeholder': '', 'id': 'qualification','rows':4}), label='Prices')\n    class Meta:\n        model = ElectricianProfile\n        fields = ['qualification']\nclass UserUpdateForm(forms.ModelForm):\n    class Meta:\n        model = User\n        fields = ['first_name', 'last_name', 'phone_number', 'whatsapp_number']",
+        "detail": "userauth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "UserUpdateForm",
+        "kind": 6,
+        "importPath": "userauth.forms",
+        "description": "userauth.forms",
+        "peekOfCode": "class UserUpdateForm(forms.ModelForm):\n    class Meta:\n        model = User\n        fields = ['first_name', 'last_name', 'phone_number', 'whatsapp_number']",
+        "detail": "userauth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "WEST_AFRICAN_COUNTRIES",
+        "kind": 5,
+        "importPath": "userauth.forms",
+        "description": "userauth.forms",
+        "peekOfCode": "WEST_AFRICAN_COUNTRIES = [\n        ('nigeria', 'Nigeria'),\n        ('benin', 'Benin'),\n        ('burkina-faso', 'Burkina Faso'),\n        ('cape-verde', 'Cape Verde'),\n        ('cote-divoire', 'Côte d\\'Ivoire (Ivory Coast)'),\n        ('gambia', 'Gambia'),\n        ('ghana', 'Ghana'),\n        ('guinea', 'Guinea'),\n        ('guinea-bissau', 'Guinea-Bissau'),",
+        "detail": "userauth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "NIGERIAN_STATES",
+        "kind": 5,
+        "importPath": "userauth.forms",
+        "description": "userauth.forms",
+        "peekOfCode": "NIGERIAN_STATES = [\n        ('abia', 'Abia'),\n        ('adamawa', 'Adamawa'),\n        ('akwa-ibom', 'Akwa Ibom'),\n        ('anambra', 'Anambra'),\n        ('bauchi', 'Bauchi'),\n        ('bayelsa', 'Bayelsa'),\n        ('benue', 'Benue'),\n        ('borno', 'Borno'),\n        ('cross-river', 'Cross River'),",
+        "detail": "userauth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "userauth.models",
+        "description": "userauth.models",
+        "peekOfCode": "class User(AbstractUser):\n    email = models.EmailField(unique=True)\n    first_name = models.CharField(max_length=150, blank=True)\n    last_name = models.CharField(max_length=150, blank=True)\n    phone_number = models.CharField(max_length=25, blank=True)  \n    whatsapp_number = models.CharField(max_length=25, blank=True)\n    USERNAME_FIELD = 'email'\n    REQUIRED_FIELDS = ['username']\n    def __str__(self):\n        return self.username",
+        "detail": "userauth.models",
+        "documentation": {}
+    },
+    {
+        "label": "ElectricianProfile",
+        "kind": 6,
+        "importPath": "userauth.models",
+        "description": "userauth.models",
+        "peekOfCode": "class ElectricianProfile(models.Model):\n    user = models.OneToOneField(User, on_delete=models.CASCADE)\n    business_name = models.CharField(max_length=255)\n    service_description = models.TextField()\n    profile_picture = models.ImageField(upload_to=user_directory_path, blank=True, null=True)\n    founded_date = models.DateField()\n    registered = models.BooleanField(default=False)\n    country = models.CharField(max_length=50, choices=WEST_AFRICAN_COUNTRIES)\n    state = models.CharField(max_length=50, choices=NIGERIAN_STATES)\n    city = models.CharField(max_length=255)",
+        "detail": "userauth.models",
+        "documentation": {}
+    },
+    {
+        "label": "CustomerProfile",
+        "kind": 6,
+        "importPath": "userauth.models",
+        "description": "userauth.models",
+        "peekOfCode": "class CustomerProfile(models.Model):\n    user = models.OneToOneField(User, on_delete=models.CASCADE)\n    profile_picture = models.ImageField(upload_to=user_directory_path, blank=True, null=True)\n    country = models.CharField(max_length=50, choices=WEST_AFRICAN_COUNTRIES)\n    state = models.CharField(max_length=50, choices=NIGERIAN_STATES)\n    city = models.CharField(max_length=255)\n    address = models.CharField(max_length=255)\n    terms = models.BooleanField(default=False)\n    class Meta:\n        verbose_name_plural = \"Customers\"",
+        "detail": "userauth.models",
+        "documentation": {}
+    },
+    {
+        "label": "user_directory_path",
+        "kind": 2,
+        "importPath": "userauth.models",
+        "description": "userauth.models",
+        "peekOfCode": "def user_directory_path(instance, filename):\n    return 'user_{0}/{1}'.format(instance.user.id, filename)\nclass User(AbstractUser):\n    email = models.EmailField(unique=True)\n    first_name = models.CharField(max_length=150, blank=True)\n    last_name = models.CharField(max_length=150, blank=True)\n    phone_number = models.CharField(max_length=25, blank=True)  \n    whatsapp_number = models.CharField(max_length=25, blank=True)\n    USERNAME_FIELD = 'email'\n    REQUIRED_FIELDS = ['username']",
+        "detail": "userauth.models",
+        "documentation": {}
+    },
+    {
+        "label": "WEST_AFRICAN_COUNTRIES",
+        "kind": 5,
+        "importPath": "userauth.models",
+        "description": "userauth.models",
+        "peekOfCode": "WEST_AFRICAN_COUNTRIES = [\n        ('nigeria', 'Nigeria'),\n        ('benin', 'Benin'),\n        ('burkina-faso', 'Burkina Faso'),\n        ('cape-verde', 'Cape Verde'),\n        ('cote-divoire', 'Côte d\\'Ivoire (Ivory Coast)'),\n        ('gambia', 'Gambia'),\n        ('ghana', 'Ghana'),\n        ('guinea', 'Guinea'),\n        ('guinea-bissau', 'Guinea-Bissau'),",
+        "detail": "userauth.models",
+        "documentation": {}
+    },
+    {
+        "label": "NIGERIAN_STATES",
+        "kind": 5,
+        "importPath": "userauth.models",
+        "description": "userauth.models",
+        "peekOfCode": "NIGERIAN_STATES = [\n        ('abia', 'Abia'),\n        ('adamawa', 'Adamawa'),\n        ('akwa-ibom', 'Akwa Ibom'),\n        ('anambra', 'Anambra'),\n        ('bauchi', 'Bauchi'),\n        ('bayelsa', 'Bayelsa'),\n        ('benue', 'Benue'),\n        ('borno', 'Borno'),\n        ('cross-river', 'Cross River'),",
+        "detail": "userauth.models",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "userauth.urls",
+        "description": "userauth.urls",
+        "peekOfCode": "urlpatterns = [\n    path('sign', views.sign, name=\"sign\"),\n    path('signup', views.signup, name=\"signup\"),\n    path('prof-signup', views.prof_signup, name=\"prof-signup\"),\n    path('activate/<uidb64>/<token>/', views.activate, name='activate'),\n    path('login', views.login_view, name=\"login\"),\n    path('logout', views.logout_view, name=\"logout\"),\n    path('update-pic', views.update_picture, name=\"update_pic\"),\n    path('update-customer-pic', views.update_customer_picture, name=\"update_customer_pic\"),\n    path('update-business-info',views.update_business_info,name=\"business_info\"),",
+        "detail": "userauth.urls",
+        "documentation": {}
+    },
+    {
+        "label": "CustomPasswordResetView",
+        "kind": 6,
+        "importPath": "userauth.views",
+        "description": "userauth.views",
+        "peekOfCode": "class CustomPasswordResetView(PasswordResetView):\n    template_name = 'password_reset.html'\n    form_class = CustomPasswordResetForm\n    success_url = reverse_lazy('userauth:password_reset_done')\n    email_template_name = 'password_reset_email.html'\n    subject_template_name = 'password_reset_subject.txt'\n    from_email = 'Ojm Electrical'\n    def send_mail(self, subject_template_name, email_template_name,\n                  context, from_email, to_email, html_email_template_name=None):\n        context['userauth'] = self.request.build_absolute_uri('/')  # Add the site URL to the context",
+        "detail": "userauth.views",
+        "documentation": {}
+    },
+    {
+        "label": "CustomPasswordResetDoneView",
+        "kind": 6,
+        "importPath": "userauth.views",
+        "description": "userauth.views",
+        "peekOfCode": "class CustomPasswordResetDoneView(PasswordResetDoneView):\n    template_name = 'password_reset_done.html'\nclass CustomPasswordResetConfirmView(PasswordResetConfirmView):\n    template_name = 'password_reset_confirm.html'\n    form_class = CustomSetPasswordForm\n    success_url = reverse_lazy('userauth:password_reset_complete')\nclass CustomPasswordResetCompleteView(PasswordResetCompleteView):\n    template_name = 'password_reset_complete.html'\n@login_required\ndef update_picture(request):",
+        "detail": "userauth.views",
+        "documentation": {}
+    },
+    {
+        "label": "CustomPasswordResetConfirmView",
+        "kind": 6,
+        "importPath": "userauth.views",
+        "description": "userauth.views",
+        "peekOfCode": "class CustomPasswordResetConfirmView(PasswordResetConfirmView):\n    template_name = 'password_reset_confirm.html'\n    form_class = CustomSetPasswordForm\n    success_url = reverse_lazy('userauth:password_reset_complete')\nclass CustomPasswordResetCompleteView(PasswordResetCompleteView):\n    template_name = 'password_reset_complete.html'\n@login_required\ndef update_picture(request):\n    profile = get_object_or_404(ElectricianProfile, user=request.user)\n    if request.method == 'POST':",
+        "detail": "userauth.views",
+        "documentation": {}
+    },
+    {
+        "label": "CustomPasswordResetCompleteView",
+        "kind": 6,
+        "importPath": "userauth.views",
+        "description": "userauth.views",
+        "peekOfCode": "class CustomPasswordResetCompleteView(PasswordResetCompleteView):\n    template_name = 'password_reset_complete.html'\n@login_required\ndef update_picture(request):\n    profile = get_object_or_404(ElectricianProfile, user=request.user)\n    if request.method == 'POST':\n        profile_pic_form = UpdatePicture(request.POST, request.FILES, instance=profile)\n        if profile_pic_form.is_valid():\n            profile_pic_form.save()\n            messages.success(request,'Profile pic updated successfully')",
+        "detail": "userauth.views",
+        "documentation": {}
+    },
+    {
+        "label": "sign",
+        "kind": 2,
+        "importPath": "userauth.views",
+        "description": "userauth.views",
+        "peekOfCode": "def sign(request):\n    return render(request, 'sign.html')\ndef signup(request):\n    if request.method == \"POST\":\n        form = CustomerSignUpForm(request.POST, request.FILES)\n        if form.is_valid():\n            user = form.save(commit=False)\n            user.is_active = False  # Deactivate account till it is confirmed\n            user.save()\n            customer_profile = CustomerProfile.objects.create(user=user,",
+        "detail": "userauth.views",
+        "documentation": {}
+    },
+    {
+        "label": "signup",
+        "kind": 2,
+        "importPath": "userauth.views",
+        "description": "userauth.views",
+        "peekOfCode": "def signup(request):\n    if request.method == \"POST\":\n        form = CustomerSignUpForm(request.POST, request.FILES)\n        if form.is_valid():\n            user = form.save(commit=False)\n            user.is_active = False  # Deactivate account till it is confirmed\n            user.save()\n            customer_profile = CustomerProfile.objects.create(user=user,\n                                                      profile_picture=form.cleaned_data['profile_picture'],\n                                                      country=form.cleaned_data['country'],",
+        "detail": "userauth.views",
+        "documentation": {}
+    },
+    {
+        "label": "prof_signup",
+        "kind": 2,
+        "importPath": "userauth.views",
+        "description": "userauth.views",
+        "peekOfCode": "def prof_signup(request):\n    if request.method == \"POST\":\n        form = ElectricianSignUpForm(request.POST, request.FILES)\n        if form.is_valid():\n            user = form.save(commit=False)\n            user.is_active = False  # Deactivate account till it is confirmed\n            user.save()\n            electrician_profile = ElectricianProfile.objects.create(user=user,\n                                                      business_name=form.cleaned_data['business_name'],\n                                                      service_description=form.cleaned_data['service_description'],",
+        "detail": "userauth.views",
+        "documentation": {}
+    },
+    {
+        "label": "activate",
+        "kind": 2,
+        "importPath": "userauth.views",
+        "description": "userauth.views",
+        "peekOfCode": "def activate(request, uidb64, token):\n    try:\n        uid = force_str(urlsafe_base64_decode(uidb64))\n        user = User.objects.get(pk=uid)\n    except(TypeError, ValueError, OverflowError, User.DoesNotExist):\n        user = None\n    if user is not None and default_token_generator.check_token(user, token):\n        user.is_active = True\n        user.save()\n        login(request, user)",
+        "detail": "userauth.views",
+        "documentation": {}
+    },
+    {
+        "label": "login_view",
+        "kind": 2,
+        "importPath": "userauth.views",
+        "description": "userauth.views",
+        "peekOfCode": "def login_view(request):\n    if request.user.is_authenticated:\n        return redirect('ojm_core:index')\n    if request.method == \"POST\":\n        email = request.POST.get('email')\n        password = request.POST.get('password')\n        signed_in = request.POST.get('signed_in')\n        try:\n            user = User.objects.get(email=email)\n        except:",
+        "detail": "userauth.views",
+        "documentation": {}
+    },
+    {
+        "label": "logout_view",
+        "kind": 2,
+        "importPath": "userauth.views",
+        "description": "userauth.views",
+        "peekOfCode": "def logout_view(request):\n    logout(request)\n    messages.warning(request, \"You logged out successfully\")\n    return redirect('userauth:login')\nclass CustomPasswordResetView(PasswordResetView):\n    template_name = 'password_reset.html'\n    form_class = CustomPasswordResetForm\n    success_url = reverse_lazy('userauth:password_reset_done')\n    email_template_name = 'password_reset_email.html'\n    subject_template_name = 'password_reset_subject.txt'",
+        "detail": "userauth.views",
+        "documentation": {}
+    },
+    {
+        "label": "update_picture",
+        "kind": 2,
+        "importPath": "userauth.views",
+        "description": "userauth.views",
+        "peekOfCode": "def update_picture(request):\n    profile = get_object_or_404(ElectricianProfile, user=request.user)\n    if request.method == 'POST':\n        profile_pic_form = UpdatePicture(request.POST, request.FILES, instance=profile)\n        if profile_pic_form.is_valid():\n            profile_pic_form.save()\n            messages.success(request,'Profile pic updated successfully')\n            return redirect('ojm_core:dashboard')  # Redirect to the profile page or any other page\n    else:\n        profile_pic_form = UpdatePicture(instance=profile)",
+        "detail": "userauth.views",
+        "documentation": {}
+    },
+    {
+        "label": "update_business_info",
+        "kind": 2,
+        "importPath": "userauth.views",
+        "description": "userauth.views",
+        "peekOfCode": "def update_business_info(request):\n    profile = get_object_or_404(ElectricianProfile, user=request.user)\n    if request.method == 'POST':\n        business_form = UpdateBusinessInfo(request.POST, instance=profile)\n        if business_form.is_valid():\n            business_form.save()\n            messages.success(request, 'Business Info updated successfully')\n            return redirect('ojm_core:dashboard')  # Redirect to the profile page or any other page\n        else:\n            print(business_form.errors)  # Debug: Print form errors",
+        "detail": "userauth.views",
+        "documentation": {}
+    },
+    {
+        "label": "update_location",
+        "kind": 2,
+        "importPath": "userauth.views",
+        "description": "userauth.views",
+        "peekOfCode": "def update_location(request):\n    profile = get_object_or_404(ElectricianProfile, user=request.user)\n    if request.method == 'POST':\n        location_form = UpdateLocation(request.POST, instance=profile)\n        if location_form.is_valid():\n            location_form.save()\n            messages.success(request, 'Location updated successfully')\n            return redirect('ojm_core:dashboard')  # Redirect to the profile page or any other page\n        else:\n            print(location_form.errors)  # Debug: Print form errors",
+        "detail": "userauth.views",
+        "documentation": {}
+    },
+    {
+        "label": "update_prices",
+        "kind": 2,
+        "importPath": "userauth.views",
+        "description": "userauth.views",
+        "peekOfCode": "def update_prices(request):\n    profile = get_object_or_404(ElectricianProfile, user=request.user)\n    if request.method == 'POST':\n        prices_form = UpdatePrices(request.POST, instance=profile)\n        if prices_form.is_valid():\n            prices_form.save()\n            messages.success(request, 'Prices updated successfully')\n            return redirect('ojm_core:dashboard')  # Redirect to the profile page or any other page\n        else:\n            print(prices_form.errors)  # Debug: Print form errors",
+        "detail": "userauth.views",
+        "documentation": {}
+    },
+    {
+        "label": "update_qualification",
+        "kind": 2,
+        "importPath": "userauth.views",
+        "description": "userauth.views",
+        "peekOfCode": "def update_qualification(request):\n    profile = get_object_or_404(ElectricianProfile, user=request.user)\n    if request.method == 'POST':\n        qualification_form = UpdateQualification(request.POST, instance=profile)\n        if qualification_form.is_valid():\n            qualification_form.save()\n            messages.success(request, 'Qualification updated successfully')\n            return redirect('ojm_core:dashboard')  # Redirect to the profile page or any other page\n        else:\n            print(qualification_form.errors)  # Debug: Print form errors",
+        "detail": "userauth.views",
+        "documentation": {}
+    },
+    {
+        "label": "update_user",
+        "kind": 2,
+        "importPath": "userauth.views",
+        "description": "userauth.views",
+        "peekOfCode": "def update_user(request):\n    user = request.user\n    if request.method == 'POST':\n        form = UserUpdateForm(request.POST, instance=user)\n        if form.is_valid():\n            form.save()\n            messages.success(request,'Profile updated successfully')\n            return redirect('ojm_core:dashboard') \n        else:\n            form = UserUpdateForm(instance=user)",
+        "detail": "userauth.views",
+        "documentation": {}
+    },
+    {
+        "label": "change_password",
+        "kind": 2,
+        "importPath": "userauth.views",
+        "description": "userauth.views",
+        "peekOfCode": "def change_password(request):\n    user = request.user\n    if request.method == 'POST':\n        old_password = request.POST['old_password']\n        new_password = request.POST['new_password']\n        confirm_password = request.POST['confirm_password']\n        if confirm_password != new_password:\n            messages.error(request,\"Passwords don't match\")\n            return redirect('ojm_core:dashboard') \n        if check_password(old_password,user.password):",
+        "detail": "userauth.views",
+        "documentation": {}
+    },
+    {
+        "label": "update_user",
+        "kind": 2,
+        "importPath": "userauth.views",
+        "description": "userauth.views",
+        "peekOfCode": "def update_user(request):\n    user = request.user\n    if request.method == 'POST':\n        form = UserUpdateForm(request.POST, instance=user)\n        if form.is_valid():\n            form.save()\n            messages.success(request,'Profile updated successfully')\n            return redirect('ojm_core:dashboard') \n        else:\n            form = UserUpdateForm(instance=user)",
+        "detail": "userauth.views",
+        "documentation": {}
+    },
+    {
+        "label": "update_customer_location",
+        "kind": 2,
+        "importPath": "userauth.views",
+        "description": "userauth.views",
+        "peekOfCode": "def update_customer_location(request):\n    profile = get_object_or_404(CustomerProfile, user=request.user)\n    if request.method == 'POST':\n        location_form = UpdateCustomerLocation(request.POST, instance=profile)\n        if location_form.is_valid():\n            location_form.save()\n            messages.success(request, 'Location updated successfully')\n            return redirect('ojm_core:dashboard')  \n        else:\n            print(location_form.errors)  ",
+        "detail": "userauth.views",
+        "documentation": {}
+    },
+    {
+        "label": "update_customer_picture",
+        "kind": 2,
+        "importPath": "userauth.views",
+        "description": "userauth.views",
+        "peekOfCode": "def update_customer_picture(request):\n    profile = get_object_or_404(CustomerProfile, user=request.user)\n    if request.method == 'POST':\n        profile_pic_form = UpdateCustomerPicture(request.POST, request.FILES, instance=profile)\n        if profile_pic_form.is_valid():\n            profile_pic_form.save()\n            messages.success(request,'Profile pic updated successfully')\n            return redirect('ojm_core:dashboard')  # Redirect to the profile page or any other page\n    else:\n        profile_pic_form = UpdateCustomerPicture(instance=profile)",
+        "detail": "userauth.views",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "manage",
+        "description": "manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'ojm_script.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "manage",
+        "documentation": {}
+    }
+]

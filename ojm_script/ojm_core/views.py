@@ -5,6 +5,7 @@ from userauth.models import User, ElectricianProfile, CustomerProfile
 from userauth.forms import ElectricianSignUpForm,CustomerSignUpForm,UpdatePicture,UpdateBusinessInfo,UpdateLocation,UpdatePrices,UpdateQualification,UserUpdateForm,UpdateCustomerLocation
 
 
+
 def index(request):
     return render(request, 'index.html')
 
@@ -66,3 +67,18 @@ def single_user(request, pk):
         'user':user
     }
     return render(request,'user.html',context)
+
+
+
+def search_view(request):
+    query = request.GET.get('query', '')
+    context = {
+        'query': query,
+    }
+    if query:
+        if request.user.is_authenticated:
+            return render(request, 'flow1.html', context)
+        else:
+            return render(request, 'flow.html', context)
+    else:
+        return render(request, 'index.html')

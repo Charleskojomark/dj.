@@ -60,6 +60,7 @@ NIGERIAN_STATES = [
         ('yobe', 'Yobe'),
         ('zamfara', 'Zamfara'),
         ('fct', 'Federal Capital Territory (FCT)'),
+        ('none','Not a Nigerian')
     ]
 
 def user_directory_path(instance, filename):

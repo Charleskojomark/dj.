@@ -9,6 +9,8 @@ urlpatterns = [
     path('all',views.all_users,name="all"),
     path('single/<int:pk>',views.single_user,name="single"),
     
+    path('search',views.search_view,name="search")
+    
 ]
 
 

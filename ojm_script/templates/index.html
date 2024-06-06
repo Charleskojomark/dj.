@@ -112,8 +112,11 @@
 
     <!-- search section -->
     <div class="search_container">
-      <input type="text" placeholder="What service do you need?">
-      <button type="submit"><i class="uil uil-search"></i></button>
+      
+      <form method="GET" action="{%url 'ojm_core:search'%}">
+        <input type="text" name="query" placeholder="What service do you need?">
+        <button type="submit"><i class="uil uil-search"></i></button>
+      </form>
     </div>
 
     <!-- category section -->

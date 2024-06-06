@@ -1,0 +1,212 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <!-- css links -->
+  <link rel="stylesheet" href="{% static 'Css/style.css' %}">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link rel="shortcut icon" href="Assest/Img/ojm log.png" type="image/x-icon" />
+  <!-- icon link -->
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up</title>
+  <link rel="stylesheet" href="{% static 'Css/signup.css' %}">
+
+</head>
+
+<body>
+  {% if messages %}
+      {% for m in messages %}
+      {% if forloop.last %}   
+  <div class="error-container" id="error-container">
+    <div class="errors" id="errors">
+      <span>{{m}}</span>
+      <button class="close-button" onclick="removeDiv('error-container')">✖</button>
+    </div>
+  </div>
+  {% endif %}
+  {% endfor %}
+  {% endif %}
+  <section class="ojm_background">
+    <header class="header" id="header">
+      <nav class="nav contanier">
+
+        <a href="index.html" class="nav_logo"><img src="{% static 'Assest/Img/ojm.png' %}" alt="" /></a>
+
+        <div class="nav_menu" id="nav-menu">
+          <ul class="nav_list">
+            <li class="nav_item">
+              <a href="index.html" class="nav_link active_link" style="color: rgb(243, 182, 18);">
+                <i class="uil uil-estate nav_icon"></i> Home
+              </a>
+            </li>
+
+            <li class="nav_item">
+              <a href="" class="nav_link">
+                <i class="uil uil-briefcase-alt nav_icon"></i> Services
+              </a>
+            </li>
+
+            <li class="nav_item">
+              <a href="sign.html" class="nav_link">
+                <i class="uil uil-user-plus nav_icon"></i> <span class="flex"><span>Join</span><span>Us</span></span>
+              </a>
+            </li>
+
+            <li class="nav_item">
+              <a href="https://bit.ly/contact_ojm" class="nav_link">
+                <i class="uil uil-whatsapp nav_icon"></i> <span class="flex"><span>Contact</span><span>Us</span></span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav_btns">
+          <div class="dot-container">
+            <i class="uil uil-bell"></i>
+            <div class="dot">1</div>
+          </div>
+
+          <div class="icon-container">
+            <i class="uil uil-user" style="font-size: 25px; cursor: pointer;"></i>
+            <div class="links-card">
+              <a href="sign.html">Sign Up</a>
+              <a href="login.html">Login</a>
+            </div>
+          </div>
+        </div>
+        </div>
+      </nav>
+    </header>
+
+
+
+    <div class="container">
+      <div class="step-indicator">
+        <div class="step" id="step1">1</div>
+        <div class="step" id="step2">2</div>
+        <div class="step" id="step3">3</div>
+      </div>
+
+      <form id="signupForm">
+        <div class="form-step" id="step1Form">
+            <h2>Let's connect you to the best electricians near you</h2>
+            <h3>What electrical service do you need?</h3>
+            <input type="text" value="{{ query }}" required>
+            <small></small>
+
+          <button type="button" onclick="nextStep(1)">Next</button>
+        </div>
+
+        <div class="form-step" id="step2Form">
+            <h2>Briefly describe what you need in detail.</h2>
+          
+            <textarea id="serviceDescription" rows="6"  name="serviceDescription" placeholder="Please try to describe what you need in detail." required></textarea>
+            <small></small>
+            <label for="businessProfilePicture">Additional files(Optional)</label>
+            <small>Upload any file that may help electricians better understand your need</small>
+            <input type="file" id="businessProfilePicture" name="businessProfilePicture" accept="image/*">
+            <small></small>
+
+          <button type="button" onclick="previousStep(1)">Previous</button>
+          <button type="button" onclick="nextStep(2)">Next</button>
+        </div>
+
+        <div class="form-step" id="step3Form">
+            <div class="checkbox">
+                <input type="checkbox" id="terms" name="terms" required> 
+                <label for="terms">I agree to the terms and conditions</label>
+              </div>
+              <small></small>
+              <button type="button" onclick="previousStep(2)">Previous</button>
+                <button type="submit">Submit</button>
+        </div>
+
+      </form>
+
+      
+    </div>
+
+
+
+
+  </section>
+
+
+  <!-- footer section  -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div>
+        <h3>Company</h3>
+        <ul>
+          <li><a href="">FAQ</a></li>
+          <li><a href="https://bit.ly/contact_ojm">Contact</a></li>
+          <li><a href="">About us</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Community</h3>
+        <ul>
+          <li><a href="prof-signup.html">Become A Smart Electrician</a></li>
+          <li><a href="signup.html">Become A Smart Customer</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Category</h3>
+        <ul>
+          <li><a href="">Electrical wiring</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Contact info</h3>
+        <ul>
+          <li><a href=""><i class="uil uil-map-marker"></i>42 okoro road Aba, Abia state.</a></li>
+          <li><a href=""><i class="uil uil-phone"></i>+2348109494805</a></li>
+          <li><a href=""><i class="uil uil-envelop"></i>ojmelectrical@gmail.com</a></li>
+        </ul>
+      </div>
+
+    </div>
+    <hr class="footer_rows">
+
+    <div class="footer-links">
+      <p class="footer_copy">&#169; ojm electrical
+        <script>document.write(new Date().getFullYear())</script>. All rights Reserved
+      </p>
+
+
+      <div class="footer_social">
+        <a href="https://facebook.com" target="_blank" class="footer_social">
+          <i class="uil uil-facebook-f"></i>
+        </a>
+        <a href="https://twitter.com" target="_blank" class="footer_social">
+          <i class="uil uil-twitter-alt"></i>
+        </a>
+        <a href="https://instagram.com" target="_blank" class="footer_social">
+          <i class="uil uil-instagram"></i>
+        </a>
+        <a href="https://whatsapp.com" target="_blank" class="footer_social">
+          <i class="uil uil-whatsapp"></i>
+        </a>
+      </div>
+
+      <a href="" class="payment">
+        <img src="{% static 'Assest/Img/pay.png' %}" alt="">
+      </a>
+    </div>
+
+  </footer>
+
+
+
+  <script src="{% static 'Js/flow1.js' %}"></script>
+  <script src="{% static 'Js/index.js' %}"></script>
+</body>
+
+</html>
